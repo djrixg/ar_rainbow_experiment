@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 6.1.13/18080
 // Filename: skkk.ggsk
-// Generated 2022-01-19T14:57:21
+// Generated 2022-01-19T15:23:47
 
 function pano2vrSkin(player,base) {
 	player.addVariable('playback_video', 2, false);
@@ -128,10 +128,10 @@ function pano2vrSkin(player,base) {
 		hs+='bottom : 5%;';
 		hs+='cursor : pointer;';
 		hs+='height : 42px;';
-		hs+='left : 12.5%;';
+		hs+='left : 6.25%;';
 		hs+='position : absolute;';
 		hs+='visibility : inherit;';
-		hs+='width : 105px;';
+		hs+='width : 12.5%;';
 		hs+='pointer-events:auto;';
 		el.setAttribute('style',hs);
 		el.style[domTransform + 'Origin']='50% 50%';
@@ -148,10 +148,10 @@ function pano2vrSkin(player,base) {
 		hs+='color: #000000;';
 		hs+='text-align: center;';
 		hs+='white-space: nowrap;';
-		hs+='padding: 2px 3px 2px 3px;';
+		hs+='padding: 3px 4px 3px 4px;';
 		hs+='overflow: hidden;';
 		els.setAttribute('style',hs);
-		els.innerHTML="Lithium Chloride<br\/>(LiCl)";
+		els.innerHTML="Lithium<br\/>Chloride<br\/>(LiCl)";
 		el.appendChild(els);
 		me._licl.ggIsActive=function() {
 			return false;
@@ -170,7 +170,6 @@ function pano2vrSkin(player,base) {
 		}
 		me._licl.ggUpdatePosition=function (useTransition) {
 			this.style[domTransition]='left 0';
-			this.ggTextDiv.style.left=((107-this.ggTextDiv.offsetWidth)/2) + 'px';
 		}
 		me.divSkin.appendChild(me._licl);
 		el=me._srcl=document.createElement('div');
@@ -186,10 +185,10 @@ function pano2vrSkin(player,base) {
 		hs+='bottom : 5%;';
 		hs+='cursor : pointer;';
 		hs+='height : 42px;';
-		hs+='left : 25%;';
+		hs+='left : 18.75%;';
 		hs+='position : absolute;';
 		hs+='visibility : inherit;';
-		hs+='width : 105px;';
+		hs+='width : 12.5%;';
 		hs+='pointer-events:auto;';
 		el.setAttribute('style',hs);
 		el.style[domTransform + 'Origin']='50% 50%';
@@ -206,10 +205,10 @@ function pano2vrSkin(player,base) {
 		hs+='color: #000000;';
 		hs+='text-align: center;';
 		hs+='white-space: nowrap;';
-		hs+='padding: 2px 3px 2px 3px;';
+		hs+='padding: 3px 4px 3px 4px;';
 		hs+='overflow: hidden;';
 		els.setAttribute('style',hs);
-		els.innerHTML="Strontium Chloride<br\/>(SrCl)";
+		els.innerHTML="Strontium<br\/>Chloride<br\/>(SrCl)";
 		el.appendChild(els);
 		me._srcl.ggIsActive=function() {
 			return false;
@@ -228,7 +227,6 @@ function pano2vrSkin(player,base) {
 		}
 		me._srcl.ggUpdatePosition=function (useTransition) {
 			this.style[domTransition]='left 0';
-			this.ggTextDiv.style.left=((107-this.ggTextDiv.offsetWidth)/2) + 'px';
 		}
 		me.divSkin.appendChild(me._srcl);
 		el=me._cacl=document.createElement('div');
@@ -244,10 +242,10 @@ function pano2vrSkin(player,base) {
 		hs+='bottom : 5%;';
 		hs+='cursor : pointer;';
 		hs+='height : 42px;';
-		hs+='left : 37.5%;';
+		hs+='left : 31.25%;';
 		hs+='position : absolute;';
 		hs+='visibility : inherit;';
-		hs+='width : 105px;';
+		hs+='width : 12.5%;';
 		hs+='pointer-events:auto;';
 		el.setAttribute('style',hs);
 		el.style[domTransform + 'Origin']='50% 50%';
@@ -264,10 +262,10 @@ function pano2vrSkin(player,base) {
 		hs+='color: #000000;';
 		hs+='text-align: center;';
 		hs+='white-space: nowrap;';
-		hs+='padding: 2px 3px 2px 3px;';
+		hs+='padding: 3px 4px 3px 4px;';
 		hs+='overflow: hidden;';
 		els.setAttribute('style',hs);
-		els.innerHTML="Calcium Chloride<br\/>(CaCl)";
+		els.innerHTML="Calcium<br\/>Chloride<br\/>(CaCl)";
 		el.appendChild(els);
 		me._cacl.ggIsActive=function() {
 			return false;
@@ -286,7 +284,6 @@ function pano2vrSkin(player,base) {
 		}
 		me._cacl.ggUpdatePosition=function (useTransition) {
 			this.style[domTransition]='left 0';
-			this.ggTextDiv.style.left=((107-this.ggTextDiv.offsetWidth)/2) + 'px';
 		}
 		me.divSkin.appendChild(me._cacl);
 		el=me._nacl=document.createElement('div');
@@ -302,10 +299,10 @@ function pano2vrSkin(player,base) {
 		hs+='bottom : 5%;';
 		hs+='cursor : pointer;';
 		hs+='height : 42px;';
-		hs+='left : 50%;';
+		hs+='left : 43.75%;';
 		hs+='position : absolute;';
 		hs+='visibility : inherit;';
-		hs+='width : 105px;';
+		hs+='width : 12.5%;';
 		hs+='pointer-events:auto;';
 		el.setAttribute('style',hs);
 		el.style[domTransform + 'Origin']='50% 50%';
@@ -322,10 +319,10 @@ function pano2vrSkin(player,base) {
 		hs+='color: #000000;';
 		hs+='text-align: center;';
 		hs+='white-space: nowrap;';
-		hs+='padding: 2px 3px 2px 3px;';
+		hs+='padding: 3px 4px 3px 4px;';
 		hs+='overflow: hidden;';
 		els.setAttribute('style',hs);
-		els.innerHTML="Sodium Chloride<br\/>(NaCl)";
+		els.innerHTML="Sodium<br\/>Chloride<br\/>(NaCl)";
 		el.appendChild(els);
 		me._nacl.ggIsActive=function() {
 			return false;
@@ -344,7 +341,6 @@ function pano2vrSkin(player,base) {
 		}
 		me._nacl.ggUpdatePosition=function (useTransition) {
 			this.style[domTransition]='left 0';
-			this.ggTextDiv.style.left=((107-this.ggTextDiv.offsetWidth)/2) + 'px';
 		}
 		me.divSkin.appendChild(me._nacl);
 		el=me._cucl=document.createElement('div');
@@ -360,10 +356,10 @@ function pano2vrSkin(player,base) {
 		hs+='bottom : 5%;';
 		hs+='cursor : pointer;';
 		hs+='height : 42px;';
-		hs+='left : 62.5%;';
+		hs+='left : 56.25%;';
 		hs+='position : absolute;';
 		hs+='visibility : inherit;';
-		hs+='width : 105px;';
+		hs+='width : 12.5%;';
 		hs+='pointer-events:auto;';
 		el.setAttribute('style',hs);
 		el.style[domTransform + 'Origin']='50% 50%';
@@ -380,10 +376,10 @@ function pano2vrSkin(player,base) {
 		hs+='color: #000000;';
 		hs+='text-align: center;';
 		hs+='white-space: nowrap;';
-		hs+='padding: 2px 3px 2px 3px;';
+		hs+='padding: 3px 4px 3px 4px;';
 		hs+='overflow: hidden;';
 		els.setAttribute('style',hs);
-		els.innerHTML="Copper II Chloride<br\/>(CuCl)";
+		els.innerHTML="Copper II<br\/>Chloride<br\/>(CuCl)";
 		el.appendChild(els);
 		me._cucl.ggIsActive=function() {
 			return false;
@@ -402,7 +398,6 @@ function pano2vrSkin(player,base) {
 		}
 		me._cucl.ggUpdatePosition=function (useTransition) {
 			this.style[domTransition]='left 0';
-			this.ggTextDiv.style.left=((107-this.ggTextDiv.offsetWidth)/2) + 'px';
 		}
 		me.divSkin.appendChild(me._cucl);
 		el=me._bacl=document.createElement('div');
@@ -418,10 +413,10 @@ function pano2vrSkin(player,base) {
 		hs+='bottom : 5%;';
 		hs+='cursor : pointer;';
 		hs+='height : 42px;';
-		hs+='left : 75%;';
+		hs+='left : 68.75%;';
 		hs+='position : absolute;';
 		hs+='visibility : inherit;';
-		hs+='width : 105px;';
+		hs+='width : 12.5%;';
 		hs+='pointer-events:auto;';
 		el.setAttribute('style',hs);
 		el.style[domTransform + 'Origin']='50% 50%';
@@ -438,10 +433,10 @@ function pano2vrSkin(player,base) {
 		hs+='color: #000000;';
 		hs+='text-align: center;';
 		hs+='white-space: nowrap;';
-		hs+='padding: 2px 3px 2px 3px;';
+		hs+='padding: 3px 4px 3px 4px;';
 		hs+='overflow: hidden;';
 		els.setAttribute('style',hs);
-		els.innerHTML="Barium Chloride<br\/>(BaCl)";
+		els.innerHTML="Barium<br\/>Chloride<br\/>(BaCl)";
 		el.appendChild(els);
 		me._bacl.ggIsActive=function() {
 			return false;
@@ -460,7 +455,6 @@ function pano2vrSkin(player,base) {
 		}
 		me._bacl.ggUpdatePosition=function (useTransition) {
 			this.style[domTransition]='left 0';
-			this.ggTextDiv.style.left=((107-this.ggTextDiv.offsetWidth)/2) + 'px';
 		}
 		me.divSkin.appendChild(me._bacl);
 		el=me._kcl=document.createElement('div');
@@ -476,10 +470,10 @@ function pano2vrSkin(player,base) {
 		hs+='bottom : 5%;';
 		hs+='cursor : pointer;';
 		hs+='height : 42px;';
-		hs+='left : 87.5%;';
+		hs+='left : 81.25%;';
 		hs+='position : absolute;';
 		hs+='visibility : inherit;';
-		hs+='width : 105px;';
+		hs+='width : 12.5%;';
 		hs+='pointer-events:auto;';
 		el.setAttribute('style',hs);
 		el.style[domTransform + 'Origin']='50% 50%';
@@ -496,10 +490,10 @@ function pano2vrSkin(player,base) {
 		hs+='color: #000000;';
 		hs+='text-align: center;';
 		hs+='white-space: nowrap;';
-		hs+='padding: 2px 3px 2px 3px;';
+		hs+='padding: 3px 4px 3px 4px;';
 		hs+='overflow: hidden;';
 		els.setAttribute('style',hs);
-		els.innerHTML="Potassium Chloride<br\/>(KCl)";
+		els.innerHTML="Potassium<br\/>Chloride<br\/>(KCl)";
 		el.appendChild(els);
 		me._kcl.ggIsActive=function() {
 			return false;
@@ -518,7 +512,6 @@ function pano2vrSkin(player,base) {
 		}
 		me._kcl.ggUpdatePosition=function (useTransition) {
 			this.style[domTransition]='left 0';
-			this.ggTextDiv.style.left=((107-this.ggTextDiv.offsetWidth)/2) + 'px';
 		}
 		me.divSkin.appendChild(me._kcl);
 		el=me._rectangle_1=document.createElement('div');
