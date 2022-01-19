@@ -5,7 +5,7 @@
     <level preload="1" width="380" height="380" predecode="1"/>
     <preview strip="1" color="0x808080"/>
     <video targetview="" format="equirectangular" endaction="loop" startmutedmobile="1" startonload="1">
-      <source url="videos/sequence.mp4"/>
+      <source url="videos/Sequence compressed.m4v"/>
     </video>
   </input>
   <view fovmode="0" pannorth="0">
