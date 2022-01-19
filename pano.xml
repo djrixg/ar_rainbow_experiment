@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<panorama apprev="18080" id="node1" appversion="6.1.13" hideabout="1">
-  <input levelbiashidpi="1.000" leveltilesize="510" levelbias="0.400" levelingpitch="0" width="760" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" height="760" overlap="1" levelingroll="0">
-    <level preload="0" width="760" height="760" predecode="0"/>
-    <level preload="1" width="380" height="380" predecode="1"/>
-    <preview color="0x808080" strip="1"/>
-    <video startmutedmobile="1" format="equirectangular" targetview="" endaction="loop" startonload="1">
-      <source url="videos/sequence_uncompressed.webm"/>
+<panorama apprev="18080" appversion="6.1.13" hideabout="1" id="node1">
+  <input width="760" levelbiashidpi="1.000" leveltilesize="510" height="760" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" overlap="1" levelingpitch="0" levelingroll="0">
+    <level width="760" height="760" preload="0" predecode="0"/>
+    <level width="380" height="380" preload="1" predecode="1"/>
+    <preview strip="1" color="0x808080"/>
+    <video startmutedmobile="1" endaction="loop" startonload="1" targetview="" format="equirectangular">
+      <source url="videos/Sequence compressed.m4v"/>
     </video>
   </input>
   <view pannorth="0" fovmode="0">
-    <start pan="5.73514" projection="4" fov="93.6166" tilt="-52.754"/>
-    <flyin pan="0" projection="9" fov="170" tilt="-90"/>
-    <min pan="0" fovpixel="2" tilt="-90"/>
-    <max scaletofit="1" pan="360" fovfisheye="360" fov="120" tilt="90" fovstereographic="270"/>
+    <start tilt="-52.754" projection="4" pan="5.73514" fov="93.6166"/>
+    <flyin tilt="-90" projection="9" pan="0" fov="170"/>
+    <min tilt="-90" pan="0" fovpixel="2"/>
+    <max scaletofit="1" fovfisheye="360" tilt="90" fovstereographic="270" pan="360" fov="120"/>
   </view>
-  <userdata description="" datetime="" longitude="" tags="Mark Thesis" latitude="" heading="0" copyright="" source="" nodeid="node1" title="" author="" info="" customnodeid="" comment=""/>
+  <userdata comment="" nodeid="node1" tags="Mark Thesis" heading="0" longitude="" customnodeid="" latitude="" copyright="" author="" source="" description="" info="" title="" datetime=""/>
   <hotspots width="180" height="20" wordwrap="1">
-    <label backgroundcolor="0xffffff" bordercolor="0x000000" background="1" border="1" textcolor="0x000000" width="180" backgroundalpha="1" borderradius="1" enabled="1" height="20" borderalpha="1" wordwrap="1" textalpha="1"/>
-    <polystyle mode="0" backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.25098" borderalpha="1"/>
-    <hotspot description="Used to clean the _____ before adding ____" target="" pan="-313.19" skinid="ht_info" id="Point01" title="Cleaning Solution" tilt="-53.49" url=""/>
+    <label textcolor="0x000000" backgroundalpha="1" width="180" backgroundcolor="0xffffff" height="20" textalpha="1" borderalpha="1" enabled="1" bordercolor="0x000000" border="1" background="1" borderradius="1" wordwrap="1"/>
+    <polystyle backgroundalpha="0.25098" backgroundcolor="0x0000ff" mode="0" borderalpha="1" bordercolor="0x0000ff" handcursor="1"/>
+    <hotspot id="Point01" skinid="ht_info" url="" description="Used to clean the _____ before adding ____" target="" tilt="-53.49" title="Cleaning Solution" pan="-313.19"/>
   </hotspots>
   <media>
-    <video fov="46.810" tiltsize="10.000" pansize="10.000" handcursor="0" startmutedmobile="1" nodechangekeep="0" field="90.000" clickmode="0" ambientlevel="0.000" tilt="-25.050" stretch="1.000" roty="0.000" width="432" loop="0" pan="7.150" rotx="0.000" mode="3" id="patchforflame" height="432" rotz="0.000" level="0.200">
+    <video loop="0" pan="7.150" handcursor="0" clickmode="0" rotx="0.000" width="432" tiltsize="10.000" roty="0.000" id="patchforflame" mode="3" field="90.000" level="0.200" nodechangekeep="0" pansize="10.000" fov="46.810" startmutedmobile="1" rotz="0.000" ambientlevel="0.000" stretch="1.000" tilt="-25.050" height="432">
       <source url="media/patch.mp4"/>
     </video>
-    <sound mode="3" startmutedmobile="0" nodechangekeep="0" pan="-351.840" ambientlevel="0.200" tiltsize="14.000" id="Element02" loop="0" level="0.200" tilt="-34.450" field="90.000" pansize="6.000">
+    <sound startmutedmobile="0" field="90.000" tiltsize="14.000" ambientlevel="0.200" mode="3" id="Element02" tilt="-34.450" loop="0" pansize="6.000" pan="-351.840" level="0.200" nodechangekeep="0">
       <source url="media/burner sfx.aac"/>
     </sound>
-    <image pan="-269.900" handcursor="1" id="Element01" rotz="20.000" width="633" fov="9.875" stretch="1.000" height="414" tilt="-47.800" rotx="-8.000" roty="-10.000" clickmode="4">
+    <image width="633" height="414" id="Element01" rotz="20.000" clickmode="4" tilt="-47.800" roty="-10.000" rotx="-8.000" stretch="1.000" pan="-269.900" fov="9.875" handcursor="1">
       <source url="media/test.png"/>
     </image>
-    <lensflare alpha="80.000" pan="-76.950" blinding="50.000" color="0xffffff" id="Lensflare01" type="1" tilt="12.260"/>
+    <lensflare blinding="50.000" type="1" id="Lensflare01" color="0xffffff" tilt="12.260" alpha="80.000" pan="-76.950"/>
   </media>
-  <transition blendtime="1" zoomafteroutfov="20" blendcolor="0x000000" softedge="0" zoomoutpause="1" zoomafterinfov="90" type="crossdissolve" zoomin="0" zoomout="0" zoomspeed="2" enabled="1" zoomfov="20"/>
-  <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
-  <control lockedkeyboardzoom="0" lockedmouse="0" rubberband="0" speedwheel="1" lockedkeyboard="0" simulatemass="1" contextfullscreen="1" invertcontrol="1" contextprojections="0" dblclickfullscreen="0" lockedwheel="0" contextvr="1" sensitivity="8" invertwheel="0" hideabout="1"/>
+  <transition type="crossdissolve" softedge="0" blendtime="1" zoomfov="20" zoomin="0" zoomoutpause="1" enabled="1" zoomspeed="2" blendcolor="0x000000" zoomafteroutfov="20" zoomafterinfov="90" zoomout="0"/>
+  <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+  <control invertwheel="0" lockedmouse="0" hideabout="1" rubberband="0" contextprojections="0" lockedwheel="0" dblclickfullscreen="0" lockedkeyboardzoom="0" speedwheel="1" simulatemass="1" contextfullscreen="1" sensitivity="8" invertcontrol="1" lockedkeyboard="0" contextvr="1"/>
 </panorama>
