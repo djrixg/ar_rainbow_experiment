@@ -5,7 +5,7 @@
     <level preload="1" width="380" height="380" predecode="1"/>
     <preview color="0x808080" strip="1"/>
     <video startmutedmobile="1" format="equirectangular" targetview="" endaction="loop" startonload="1">
-      <source url="videos/Sequence compressed.m4v"/>
+      <source url="videos/sequence_uncompressed.webm"/>
     </video>
   </input>
   <view pannorth="0" fovmode="0">
@@ -27,6 +27,9 @@
     <sound mode="3" startmutedmobile="0" nodechangekeep="0" pan="-351.840" ambientlevel="0.200" tiltsize="14.000" id="Element02" loop="0" level="0.200" tilt="-34.450" field="90.000" pansize="6.000">
       <source url="media/burner sfx.aac"/>
     </sound>
+    <image pan="-269.900" handcursor="1" id="Element01" rotz="20.000" width="633" fov="9.875" stretch="1.000" height="414" tilt="-47.800" rotx="-8.000" roty="-10.000" clickmode="4">
+      <source url="media/test.png"/>
+    </image>
     <lensflare alpha="80.000" pan="-99.590" blinding="50.000" color="0xffffff" id="Lensflare01" type="1" tilt="8.500"/>
   </media>
   <transition blendtime="1" zoomafteroutfov="20" blendcolor="0x000000" softedge="0" zoomoutpause="1" zoomafterinfov="90" type="crossdissolve" zoomin="0" zoomout="0" zoomspeed="2" enabled="1" zoomfov="20"/>
