@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 6.1.13/18080
 // Filename: skkk.ggsk
-// Generated 2022-01-24T16:55:31
+// Generated 2022-01-24T16:57:43
 
 function pano2vrSkin(player,base) {
 	player.addVariable('playback_video', 2, false);
@@ -1678,6 +1678,71 @@ function pano2vrSkin(player,base) {
 		}
 		me._information.appendChild(me._info_popup_close);
 		me.divSkin.appendChild(me._information);
+		el=me._text_1=document.createElement('div');
+		els=me._text_1__text=document.createElement('div');
+		el.className='ggskin ggskin_textdiv';
+		el.ggTextDiv=els;
+		el.ggId="Text 1";
+		el.ggDx=0;
+		el.ggDy=0;
+		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
+		el.ggVisible=true;
+		el.className="ggskin ggskin_text ";
+		el.ggType='text';
+		hs ='';
+		hs+='height : 89px;';
+		hs+='left : -10000px;';
+		hs+='opacity : 0.5;';
+		hs+='position : absolute;';
+		hs+='top : -10000px;';
+		hs+='visibility : inherit;';
+		hs+='width : 548px;';
+		hs+='pointer-events:auto;';
+		el.setAttribute('style',hs);
+		el.style[domTransform + 'Origin']='50% 50%';
+		hs ='position:absolute;';
+		hs += 'box-sizing: border-box;';
+		hs+='cursor: default;';
+		hs+='left: 0px;';
+		hs+='top:  0px;';
+		hs+='width: 550px;';
+		hs+='height: 91px;';
+		hs+='background: #ffffff;';
+		hs+='border: 1px solid #000000;';
+		hs+='color: #000000;';
+		hs+='font-size: 36px;';
+		hs+='font-weight: inherit;';
+		hs+='text-align: center;';
+		hs+='white-space: nowrap;';
+		hs+='padding: 0px 1px 0px 1px;';
+		hs+='overflow: hidden;';
+		hs+='overflow-y: auto;';
+		els.setAttribute('style',hs);
+		els.innerHTML="MADE BY ERICKE GALLARDO<br\/>(Will remove this after)";
+		el.appendChild(els);
+		me._text_1.ggIsActive=function() {
+			return false;
+		}
+		el.ggElementNodeId=function() {
+			return player.getCurrentNode();
+		}
+		me._text_1.ggUpdatePosition=function (useTransition) {
+			if (useTransition==='undefined') {
+				useTransition = false;
+			}
+			if (!useTransition) {
+				this.style[domTransition]='none';
+			}
+			if (this.parentNode) {
+				var pw=this.parentNode.clientWidth;
+				var w=this.offsetWidth + 2;
+					this.style.left=(this.ggDx + pw/2 - w/2) + 'px';
+				var ph=this.parentNode.clientHeight;
+				var h=this.offsetHeight;
+					this.style.top=(this.ggDy + ph/2 - h/2) + 'px';
+			}
+		}
+		me.divSkin.appendChild(me._text_1);
 		player.addListener('sizechanged', function() {
 			me.updateSize(me.divSkin);
 		});
