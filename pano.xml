@@ -1,51 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tour appversion="6.1.13" start="node3" apprev="18080">
-  <panorama id="node1" hideabout="1">
-    <input levelbiashidpi="1.000" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" height="760" levelingroll="0" levelbias="0.400" leveltilesize="510" width="760" levelingpitch="0">
-      <level height="760" preload="0" width="760" predecode="0"/>
-      <level height="380" preload="1" width="380" predecode="1"/>
-      <preview color="0x808080" strip="1"/>
-      <video format="equirectangular" targetview="" endaction="loop" startmutedmobile="1" startonload="0">
-        <source url="videos/Sequence compressed.m4v"/>
-      </video>
-    </input>
-    <view pannorth="0" fovmode="0">
-      <start pan="5.73514" projection="4" tilt="-52.754" fov="93.6166"/>
-      <flyin pan="0" projection="9" tilt="-90" fov="170"/>
-      <min pan="0" tilt="-90" fovpixel="2"/>
-      <max fovstereographic="270" pan="360" scaletofit="1" tilt="90" fov="120" fovfisheye="360"/>
-    </view>
-    <userdata copyright="" latitude="" datetime="" comment="" heading="0" info="" title="" description="" source="" customnodeid="" author="" tags="Mark Thesis" longitude="" nodeid="node1"/>
-    <hotspots height="20" wordwrap="1" width="180">
-      <label backgroundalpha="1" height="20" background="1" textcolor="0x000000" textalpha="1" border="1" wordwrap="1" borderradius="1" width="180" backgroundcolor="0xffffff" bordercolor="0x000000" enabled="1" borderalpha="1"/>
-      <polystyle backgroundalpha="0.25098" handcursor="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" mode="0" borderalpha="1"/>
-      <hotspot pan="-262.67" id="Point01" url="{node2}" tilt="-52.43" title="" target="$fwd" description="" skinid="ht_node"/>
-    </hotspots>
-    <media>
-      <video rotz="0.000" level="0.200" rotx="0.000" width="432" height="432" pansize="10.000" tilt="-25.050" pan="7.150" handcursor="0" id="patchforflame" stretch="1.000" field="90.000" loop="0" fov="46.810" nodechangekeep="0" clickmode="0" roty="0.000" startmutedmobile="1" mode="3" tiltsize="10.000" ambientlevel="0.000">
-        <source url="media/patch.mp4"/>
-      </video>
-      <sound pan="-351.840" nodechangekeep="0" loop="0" level="0.200" id="Element02" tiltsize="14.000" tilt="-34.450" ambientlevel="0.200" startmutedmobile="0" field="90.000" pansize="6.000" mode="3">
-        <source url="media/burner sfx.aac"/>
-      </sound>
-      <image pan="6.020" roty="-6.000" height="300" id="card_bunsen_burner" tilt="-52.700" rotx="-51.000" stretch="1.000" fov="14.753" handcursor="1" width="500" rotz="-2.000" clickmode="4">
-        <source url="media/bunsen burner.png"/>
-      </image>
-      <image pan="-52.800" roty="-21.000" height="300" id="card_bottle" tilt="-31.830" rotx="-32.000" stretch="1.000" fov="12.905" handcursor="1" width="500" rotz="-17.000" clickmode="4">
-        <source url="media/wash bottle.png"/>
-      </image>
-      <image pan="-315.740" roty="-12.000" height="300" id="card_beaker" tilt="-60.190" rotx="-42.000" stretch="1.000" fov="13.350" handcursor="1" width="500" rotz="-8.000" clickmode="4">
-        <source url="media/beaker.png"/>
-      </image>
-      <image pan="-282.850" roty="12.000" height="300" id="Element01" tilt="-64.590" rotx="-4.000" stretch="1.000" fov="9.800" handcursor="1" width="500" rotz="74.000" clickmode="4">
-        <source url="media/strontium chloride.png"/>
-      </image>
-      <lensflare blinding="50.000" pan="-76.950" alpha="80.000" id="Lensflare01" tilt="12.260" type="1" color="0xffffff"/>
-    </media>
-    <transition zoomafteroutfov="20" zoomspeed="2" zoomin="0" blendtime="0.2" type="crossdissolve" softedge="0" zoomoutpause="1" blendcolor="0x000000" zoomafterinfov="90" zoomfov="20" zoomout="0" enabled="1"/>
-    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
-    <control invertwheel="0" lockedwheel="0" simulatemass="1" lockedkeyboard="0" speedwheel="1" contextvr="1" contextfullscreen="1" rubberband="0" hideabout="1" contextprojections="0" lockedmouse="0" dblclickfullscreen="0" sensitivity="8" invertcontrol="1" lockedkeyboardzoom="0"/>
-  </panorama>
   <panorama id="node3" hideabout="1">
     <input levelbiashidpi="1.000" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" height="760" levelingroll="0" levelbias="0.400" leveltilesize="510" width="760" levelingpitch="0">
       <level height="760" preload="0" width="760" predecode="0"/>
@@ -91,37 +45,37 @@
       <sound pan="-353.390" nodechangekeep="0" loop="0" level="0.200" id="Element01" tiltsize="10.000" tilt="-34.230" ambientlevel="0.100" startmutedmobile="0" field="90.000" pansize="10.000" mode="3">
         <source url="media/burner sfx.aac"/>
       </sound>
-      <image pan="-313.790" roty="0.000" height="300" id="Element02" tilt="-59.520" rotx="0.000" stretch="1.000" fov="7.360" handcursor="1" width="500" rotz="0.000" clickmode="4">
+      <image pan="-313.790" roty="0.000" height="300" id="Element02" tilt="-59.520" rotx="0.000" stretch="1.000" fov="7.360" handcursor="1" width="450" rotz="0.000" clickmode="4">
         <source url="media/beaker.jpg"/>
       </image>
-      <image pan="-353.450" roty="0.000" height="300" id="Element03" tilt="-54.650" rotx="0.000" stretch="1.000" fov="7.140" handcursor="1" width="500" rotz="0.000" clickmode="4">
+      <image pan="-353.450" roty="0.000" height="300" id="Element03" tilt="-54.650" rotx="0.000" stretch="1.000" fov="7.140" handcursor="1" width="450" rotz="0.000" clickmode="4">
         <source url="media/bunsen burner.jpg"/>
       </image>
-      <image pan="-63.610" roty="0.000" height="300" id="Element04" tilt="-33.670" rotx="0.000" stretch="1.000" fov="6.920" handcursor="1" width="500" rotz="0.000" clickmode="4">
+      <image pan="-63.610" roty="0.000" height="300" id="Element04" tilt="-33.670" rotx="0.000" stretch="1.000" fov="6.920" handcursor="1" width="450" rotz="0.000" clickmode="4">
         <source url="media/wash bottle.jpg"/>
       </image>
-      <image pan="-271.330" roty="0.000" height="300" id="Element05" tilt="-25.300" rotx="0.000" stretch="1.000" fov="20.900" handcursor="1" width="500" rotz="0.000" clickmode="4">
+      <image pan="-271.330" roty="0.000" height="300" id="Element05" tilt="-25.300" rotx="0.000" stretch="1.000" fov="20.900" handcursor="1" width="450" rotz="0.000" clickmode="4">
         <source url="media/nichrome wire.jpg"/>
       </image>
-      <image pan="-275.650" roty="22.000" height="300" id="Element06" tilt="-55.600" rotx="13.000" stretch="1.000" fov="6.700" handcursor="1" width="500" rotz="78.000" clickmode="4">
+      <image pan="-275.650" roty="22.000" height="300" id="Element06" tilt="-55.600" rotx="13.000" stretch="1.000" fov="6.700" handcursor="1" width="450" rotz="78.000" clickmode="4">
         <source url="media/lithium chloride.jpg"/>
       </image>
-      <image pan="-281.610" roty="27.000" height="300" id="Element07" tilt="-63.840" rotx="13.000" stretch="1.000" fov="7.810" handcursor="1" width="500" rotz="68.000" clickmode="4">
+      <image pan="-281.610" roty="27.000" height="300" id="Element07" tilt="-63.840" rotx="13.000" stretch="1.000" fov="7.810" handcursor="1" width="450" rotz="68.000" clickmode="4">
         <source url="media/strontium chloride.jpg"/>
       </image>
-      <image pan="-295.400" roty="0.000" height="300" id="Element08" tilt="-74.760" rotx="0.000" stretch="1.000" fov="7.810" handcursor="1" width="500" rotz="60.000" clickmode="4">
+      <image pan="-295.400" roty="0.000" height="300" id="Element08" tilt="-74.760" rotx="0.000" stretch="1.000" fov="7.810" handcursor="1" width="450" rotz="60.000" clickmode="4">
         <source url="media/calcium chloride.jpg"/>
       </image>
-      <image pan="357.170" roty="-2.000" height="300" id="Element09" tilt="-82.090" rotx="-4.000" stretch="1.000" fov="8.470" handcursor="1" width="500" rotz="-10.000" clickmode="4">
+      <image pan="357.170" roty="-2.000" height="300" id="Element09" tilt="-82.090" rotx="-4.000" stretch="1.000" fov="8.470" handcursor="1" width="450" rotz="-10.000" clickmode="4">
         <source url="media/sodium chloride.jpg"/>
       </image>
-      <image pan="-54.270" roty="0.000" height="300" id="Element10" tilt="-73.070" rotx="0.000" stretch="1.000" fov="7.580" handcursor="1" width="500" rotz="-65.000" clickmode="4">
+      <image pan="-54.270" roty="0.000" height="300" id="Element10" tilt="-73.070" rotx="0.000" stretch="1.000" fov="7.580" handcursor="1" width="450" rotz="-65.000" clickmode="4">
         <source url="media/copper (II) chloride.jpg"/>
       </image>
-      <image pan="-68.590" roty="-23.000" height="300" id="Element11" tilt="-63.120" rotx="0.000" stretch="1.000" fov="6.920" handcursor="1" width="500" rotz="-76.000" clickmode="4">
+      <image pan="-68.590" roty="-23.000" height="300" id="Element11" tilt="-63.120" rotx="0.000" stretch="1.000" fov="6.920" handcursor="1" width="450" rotz="-76.000" clickmode="4">
         <source url="media/barium chloride.jpg"/>
       </image>
-      <image pan="-73.160" roty="-36.000" height="300" id="Element12" tilt="-51.970" rotx="-3.000" stretch="1.000" fov="6.920" handcursor="1" width="500" rotz="-77.000" clickmode="4">
+      <image pan="-73.160" roty="-36.000" height="300" id="Element12" tilt="-51.970" rotx="-3.000" stretch="1.000" fov="6.920" handcursor="1" width="450" rotz="-77.000" clickmode="4">
         <source url="media/potassium chloride.jpg"/>
       </image>
     </media>

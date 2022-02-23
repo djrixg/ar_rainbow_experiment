@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 6.1.13/18080
 // Filename: skkk.ggsk
-// Generated 2022-02-23T10:15:21
+// Generated 2022-02-23T10:35:26
 
 function pano2vrSkin(player,base) {
 	player.addVariable('playback_video', 2, false);
@@ -911,6 +911,67 @@ function pano2vrSkin(player,base) {
 			}
 		}
 		me.divSkin.appendChild(me._text_1);
+		el=me._text_2=document.createElement('div');
+		els=me._text_2__text=document.createElement('div');
+		el.className='ggskin ggskin_textdiv';
+		el.ggTextDiv=els;
+		el.ggId="Text 2";
+		el.ggDx=0;
+		el.ggDy=-1;
+		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
+		el.ggVisible=true;
+		el.className="ggskin ggskin_text ";
+		el.ggType='text';
+		hs ='';
+		hs+='height : 100%;';
+		hs+='left : -10000px;';
+		hs+='position : absolute;';
+		hs+='top : -10000px;';
+		hs+='visibility : inherit;';
+		hs+='width : 100%;';
+		hs+='pointer-events:auto;';
+		el.setAttribute('style',hs);
+		el.style[domTransform + 'Origin']='50% 50%';
+		hs ='position:absolute;';
+		hs += 'box-sizing: border-box;';
+		hs+='cursor: default;';
+		hs+='left: 0px;';
+		hs+='top:  0px;';
+		hs+='width: 100%;';
+		hs+='height: 100%;';
+		hs+='background: #ffffff;';
+		hs+='border: 1px solid #000000;';
+		hs+='color: #000000;';
+		hs+='text-align: center;';
+		hs+='white-space: pre-wrap;';
+		hs+='padding: 500px 501px 500px 501px;';
+		hs+='overflow: hidden;';
+		els.setAttribute('style',hs);
+		els.innerHTML="Loading...";
+		el.appendChild(els);
+		me._text_2.ggIsActive=function() {
+			return false;
+		}
+		el.ggElementNodeId=function() {
+			return player.getCurrentNode();
+		}
+		me._text_2.ggUpdatePosition=function (useTransition) {
+			if (useTransition==='undefined') {
+				useTransition = false;
+			}
+			if (!useTransition) {
+				this.style[domTransition]='none';
+			}
+			if (this.parentNode) {
+				var pw=this.parentNode.clientWidth;
+				var w=this.offsetWidth;
+					this.style.left=(this.ggDx + pw/2 - w/2) + 'px';
+				var ph=this.parentNode.clientHeight;
+				var h=this.offsetHeight;
+					this.style.top=(this.ggDy + ph/2 - h/2) + 'px';
+			}
+		}
+		me.divSkin.appendChild(me._text_2);
 		player.addListener('sizechanged', function() {
 			me.updateSize(me.divSkin);
 		});
@@ -920,6 +981,27 @@ function pano2vrSkin(player,base) {
 				player.soundSetTime("_videopanorama", player.soundGetTime("_videopanorama") - 100);
 			player.setMediaVisibility("patchforflame","1",200);
 			player.setVariableValue('playback_video', false);
+			if (player.transitionsDisabled) {
+				me._text_2.style[domTransition]='none';
+			} else {
+				me._text_2.style[domTransition]='all 500ms ease-out 0ms';
+			}
+			me._text_2.style.opacity='0';
+			me._text_2.style.visibility='hidden';
+		});
+		player.addListener('tilesready', function() {
+			if (player.transitionsDisabled) {
+				me._text_2.style[domTransition]='none';
+			} else {
+				me._text_2.style[domTransition]='all 500ms ease-out 0ms';
+			}
+			me._text_2.style.opacity='0';
+			me._text_2.style.visibility='hidden';
+		});
+		player.addListener('tilesrequested', function() {
+			me._text_2.style[domTransition]='none';
+			me._text_2.style.visibility=(Number(me._text_2.style.opacity)>0||!me._text_2.style.opacity)?'inherit':'hidden';
+			me._text_2.ggVisible=true;
 		});
 		player.addListener('varchanged_playback_video', function() {if (	(		((player.getVariableValue('playback_video') == false))	)) {		player.soundSetTime("_videopanorama", player.soundGetTime("_videopanorama") - 100);}if (	(		((player.getVariableValue('playback_video') == false))	)) {	player.videoPanoPause();}if (	(		((player.getVariableValue('playback_video') == true))	)) {	player.videoPanoPlay();}if (	(		((player.getVariableValue('playback_video') == true))	)) {	player.setMediaVisibility("patchforflame","0",200);}if (	(		((player.getVariableValue('playback_video') == false))	)) {	player.setMediaVisibility("patchforflame","1",200);}});
 	};
