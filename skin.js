@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 6.1.13/18080
 // Filename: skkk.ggsk
-// Generated 2022-02-23T11:23:15
+// Generated 2022-02-23T11:34:19
 
 function pano2vrSkin(player,base) {
 	player.addVariable('playback_video', 2, false);
@@ -116,38 +116,10 @@ function pano2vrSkin(player,base) {
 	this.addSkin=function() {
 		var hs='';
 		this.ggCurrentTime=new Date().getTime();
-		el=me._rectangle_1=document.createElement('div');
-		el.ggId="Rectangle 1";
-		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
-		el.ggVisible=false;
-		el.className="ggskin ggskin_rectangle ";
-		el.ggType='rectangle';
-		hs ='';
-		hs+='background : #ffffff;';
-		hs+='border : 1px solid #000000;';
-		hs+='cursor : default;';
-		hs+='height : 20px;';
-		hs+='left : 29px;';
-		hs+='position : absolute;';
-		hs+='top : 62px;';
-		hs+='visibility : hidden;';
-		hs+='width : 100px;';
-		hs+='pointer-events:auto;';
-		el.setAttribute('style',hs);
-		el.style[domTransform + 'Origin']='50% 50%';
-		me._rectangle_1.ggIsActive=function() {
-			return false;
-		}
-		el.ggElementNodeId=function() {
-			return player.getCurrentNode();
-		}
-		me._rectangle_1.ggUpdatePosition=function (useTransition) {
-		}
-		me.divSkin.appendChild(me._rectangle_1);
 		el=me._gyro=document.createElement('div');
 		el.ggId="gyro";
 		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
-		el.ggVisible=true;
+		el.ggVisible=false;
 		el.className="ggskin ggskin_container ";
 		el.ggType='container';
 		hs ='';
@@ -155,7 +127,7 @@ function pano2vrSkin(player,base) {
 		hs+='position : absolute;';
 		hs+='right : 10px;';
 		hs+='top : 10px;';
-		hs+='visibility : inherit;';
+		hs+='visibility : hidden;';
 		hs+='width : 32px;';
 		hs+='pointer-events:none;';
 		el.setAttribute('style',hs);
@@ -166,8 +138,50 @@ function pano2vrSkin(player,base) {
 		el.ggElementNodeId=function() {
 			return player.getCurrentNode();
 		}
+		me._gyro.logicBlock_visible = function() {
+			var newLogicStateVisible;
+			if (
+				((player.getGyroAvailable() == true))
+			)
+			{
+				newLogicStateVisible = 0;
+			}
+			else {
+				newLogicStateVisible = -1;
+			}
+			if (me._gyro.ggCurrentLogicStateVisible != newLogicStateVisible) {
+				me._gyro.ggCurrentLogicStateVisible = newLogicStateVisible;
+				me._gyro.style[domTransition]='';
+				if (me._gyro.ggCurrentLogicStateVisible == 0) {
+					me._gyro.style.visibility=(Number(me._gyro.style.opacity)>0||!me._gyro.style.opacity)?'inherit':'hidden';
+					me._gyro.ggVisible=true;
+				}
+				else {
+					me._gyro.style.visibility="hidden";
+					me._gyro.ggVisible=false;
+				}
+			}
+		}
 		me._gyro.onclick=function (e) {
 			player.setUseGyro(!(player.getUseGyro()));
+		}
+		me._gyro.onmouseover=function (e) {
+			if (player.transitionsDisabled) {
+				me._gyrotext.style[domTransition]='none';
+			} else {
+				me._gyrotext.style[domTransition]='all 200ms ease-out 0ms';
+			}
+			me._gyrotext.style.opacity='1';
+			me._gyrotext.style.visibility=me._gyrotext.ggVisible?'inherit':'hidden';
+		}
+		me._gyro.onmouseout=function (e) {
+			if (player.transitionsDisabled) {
+				me._gyrotext.style[domTransition]='none';
+			} else {
+				me._gyrotext.style[domTransition]='all 200ms ease-out 0ms';
+			}
+			me._gyrotext.style.opacity='0';
+			me._gyrotext.style.visibility='hidden';
 		}
 		me._gyro.ggUpdatePosition=function (useTransition) {
 		}
@@ -400,6 +414,59 @@ function pano2vrSkin(player,base) {
 		me._gyro_off.ggUpdatePosition=function (useTransition) {
 		}
 		me._gyro.appendChild(me._gyro_off);
+		el=me._gyrotext=document.createElement('div');
+		els=me._gyrotext__text=document.createElement('div');
+		el.className='ggskin ggskin_textdiv';
+		el.ggTextDiv=els;
+		el.ggId="gyrotext";
+		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
+		el.ggVisible=true;
+		el.className="ggskin ggskin_text ";
+		el.ggType='text';
+		hs ='';
+		hs+='height : 51px;';
+		hs+='opacity : 0;';
+		hs+='position : absolute;';
+		hs+='right : 3px;';
+		hs+='top : 36px;';
+		hs+='visibility : hidden;';
+		hs+='width : 108px;';
+		hs+='pointer-events:auto;';
+		el.setAttribute('style',hs);
+		el.style[domTransform + 'Origin']='50% 50%';
+		hs ='position:absolute;';
+		hs += 'box-sizing: border-box;';
+		hs+='cursor: default;';
+		hs+='right: 0px;';
+		hs+='top:  0px;';
+		hs+='width: 110px;';
+		hs+='height: auto;';
+		hs+='background: #ffffff;';
+		hs+='border: 1px solid #000000;';
+		hs+='color: #000000;';
+		hs+='text-align: center;';
+		hs+='white-space: pre-wrap;';
+		hs+='padding: 0px 1px 0px 1px;';
+		hs+='overflow: hidden;';
+		hs+='overflow-y: auto;';
+		els.setAttribute('style',hs);
+		els.innerHTML="Use Device Gyro";
+		el.appendChild(els);
+		me._gyrotext.ggIsActive=function() {
+			if ((this.parentNode) && (this.parentNode.ggIsActive)) {
+				return this.parentNode.ggIsActive();
+			}
+			return false;
+		}
+		el.ggElementNodeId=function() {
+			if ((this.parentNode) && (this.parentNode.ggElementNodeId)) {
+				return this.parentNode.ggElementNodeId();
+			}
+			return player.getCurrentNode();
+		}
+		me._gyrotext.ggUpdatePosition=function (useTransition) {
+		}
+		me._gyro.appendChild(me._gyrotext);
 		me.divSkin.appendChild(me._gyro);
 		el=me._screentint_info=document.createElement('div');
 		el.ggId="screentint_info";
@@ -881,7 +948,7 @@ function pano2vrSkin(player,base) {
 		hs+='width: 100%;';
 		hs+='height: 100%;';
 		hs+='background: #ffffff;';
-		hs+='background: rgba(255,255,255,0.392157);';
+		hs+='background: rgba(255,255,255,0.588235);';
 		hs+='border: 1px solid #000000;';
 		hs+='color: #000000;';
 		hs+='text-align: center;';
@@ -914,15 +981,11 @@ function pano2vrSkin(player,base) {
 			}
 		}
 		me.divSkin.appendChild(me._text_2);
+		player.setVolume("Element01",1);
 		player.addListener('sizechanged', function() {
 			me.updateSize(me.divSkin);
 		});
 		player.addListener('imagesready', function() {
-			player.setVariableValue('playback_video', false);
-			player.videoPanoStop();
-				player.soundSetTime("_videopanorama", player.soundGetTime("_videopanorama") - 100);
-			player.setMediaVisibility("patchforflame","1",200);
-			player.setVariableValue('playback_video', false);
 			if (player.transitionsDisabled) {
 				me._text_2.style[domTransition]='none';
 			} else {
@@ -930,6 +993,7 @@ function pano2vrSkin(player,base) {
 			}
 			me._text_2.style.opacity='0';
 			me._text_2.style.visibility='hidden';
+			player.changeVolume("Element01",0.2);
 		});
 		player.addListener('tilesready', function() {
 			if (player.transitionsDisabled) {
@@ -961,7 +1025,6 @@ function pano2vrSkin(player,base) {
 			) {
 			}
 		});
-		player.addListener('varchanged_playback_video', function() {if (	(		((player.getVariableValue('playback_video') == false))	)) {		player.soundSetTime("_videopanorama", player.soundGetTime("_videopanorama") - 100);}if (	(		((player.getVariableValue('playback_video') == false))	)) {	player.videoPanoPause();}if (	(		((player.getVariableValue('playback_video') == true))	)) {	player.videoPanoPlay();}if (	(		((player.getVariableValue('playback_video') == true))	)) {	player.setMediaVisibility("patchforflame","0",200);}if (	(		((player.getVariableValue('playback_video') == false))	)) {	player.setMediaVisibility("patchforflame","1",200);}});
 	};
 	this.hotspotProxyClick=function(id, url) {
 	}
@@ -2241,7 +2304,10 @@ function pano2vrSkin(player,base) {
 	me._gyro_off.logicBlock_alpha();
 	me._screentint_info.logicBlock_visible();
 	me._information.logicBlock_visible();
+	me._gyro.logicBlock_visible();
 	player.addListener('changenode', function(args) { me._gyro_on.logicBlock_alpha();me._gyro_off.logicBlock_alpha();me._screentint_info.logicBlock_visible();me._information.logicBlock_visible(); });
+	player.addListener('configloaded', function(args) { me._gyro.logicBlock_visible(); });
+	player.addListener('gyroavailable', function(args) { me._gyro.logicBlock_visible(); });
 	player.addListener('gyrochanged', function(args) { me._gyro_on.logicBlock_alpha();me._gyro_off.logicBlock_alpha(); });
 	player.addListener('varchanged_vis_info_popup', function(args) { me._screentint_info.logicBlock_visible();me._information.logicBlock_visible(); });
 	player.addListener('sizechanged', function(args) { me.callChildLogicBlocksHotspot_ht_node_sizechanged(); });
