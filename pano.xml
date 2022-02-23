@@ -92,37 +92,37 @@
         <source url="media/burner sfx.aac"/>
       </sound>
       <image pan="-313.790" roty="0.000" height="300" id="Element02" tilt="-59.520" rotx="0.000" stretch="1.000" fov="7.360" handcursor="1" width="500" rotz="0.000" clickmode="4">
-        <source url="media/beaker.png"/>
+        <source url="media/beaker.jpg"/>
       </image>
       <image pan="-353.450" roty="0.000" height="300" id="Element03" tilt="-54.650" rotx="0.000" stretch="1.000" fov="7.140" handcursor="1" width="500" rotz="0.000" clickmode="4">
-        <source url="media/bunsen burner.png"/>
+        <source url="media/bunsen burner.jpg"/>
       </image>
       <image pan="-63.610" roty="0.000" height="300" id="Element04" tilt="-33.670" rotx="0.000" stretch="1.000" fov="6.920" handcursor="1" width="500" rotz="0.000" clickmode="4">
-        <source url="media/wash bottle.png"/>
+        <source url="media/wash bottle.jpg"/>
       </image>
       <image pan="-271.330" roty="0.000" height="300" id="Element05" tilt="-25.300" rotx="0.000" stretch="1.000" fov="20.900" handcursor="1" width="500" rotz="0.000" clickmode="4">
-        <source url="media/nichrome wire.png"/>
+        <source url="media/nichrome wire.jpg"/>
       </image>
       <image pan="-275.650" roty="22.000" height="300" id="Element06" tilt="-55.600" rotx="13.000" stretch="1.000" fov="6.700" handcursor="1" width="500" rotz="78.000" clickmode="4">
-        <source url="media/lithium chloride.png"/>
+        <source url="media/lithium chloride.jpg"/>
       </image>
       <image pan="-281.610" roty="27.000" height="300" id="Element07" tilt="-63.840" rotx="13.000" stretch="1.000" fov="7.810" handcursor="1" width="500" rotz="68.000" clickmode="4">
-        <source url="media/strontium chloride.png"/>
+        <source url="media/strontium chloride.jpg"/>
       </image>
       <image pan="-295.400" roty="0.000" height="300" id="Element08" tilt="-74.760" rotx="0.000" stretch="1.000" fov="7.810" handcursor="1" width="500" rotz="60.000" clickmode="4">
-        <source url="media/calcium chloride.png"/>
+        <source url="media/calcium chloride.jpg"/>
       </image>
       <image pan="357.170" roty="-2.000" height="300" id="Element09" tilt="-82.090" rotx="-4.000" stretch="1.000" fov="8.470" handcursor="1" width="500" rotz="-10.000" clickmode="4">
-        <source url="media/sodium chloride.png"/>
+        <source url="media/sodium chloride.jpg"/>
       </image>
       <image pan="-54.270" roty="0.000" height="300" id="Element10" tilt="-73.070" rotx="0.000" stretch="1.000" fov="7.580" handcursor="1" width="500" rotz="-65.000" clickmode="4">
-        <source url="media/copper (II) chloride.png"/>
+        <source url="media/copper (II) chloride.jpg"/>
       </image>
       <image pan="-68.590" roty="-23.000" height="300" id="Element11" tilt="-63.120" rotx="0.000" stretch="1.000" fov="6.920" handcursor="1" width="500" rotz="-76.000" clickmode="4">
-        <source url="media/barium chloride.png"/>
+        <source url="media/barium chloride.jpg"/>
       </image>
-      <image pan="-73.160" roty="-36.000" height="300" id="Element12" tilt="-51.970" rotx="-3.000" stretch="1.000" fov="6.917" handcursor="1" width="500" rotz="-77.000" clickmode="4">
-        <source url="media/potassium chloride.png"/>
+      <image pan="-73.160" roty="-36.000" height="300" id="Element12" tilt="-51.970" rotx="-3.000" stretch="1.000" fov="6.920" handcursor="1" width="500" rotz="-77.000" clickmode="4">
+        <source url="media/potassium chloride.jpg"/>
       </image>
     </media>
     <transition zoomafteroutfov="20" zoomspeed="2" zoomin="0" blendtime="0.2" type="crossdissolve" softedge="0" zoomoutpause="1" blendcolor="0x000000" zoomafterinfov="90" zoomfov="20" zoomout="0" enabled="1"/>
