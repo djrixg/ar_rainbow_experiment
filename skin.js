@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 6.1.13/18080
 // Filename: skkk.ggsk
-// Generated 2022-02-23T10:42:20
+// Generated 2022-02-23T10:48:36
 
 function pano2vrSkin(player,base) {
 	player.addVariable('playback_video', 2, false);
@@ -401,65 +401,6 @@ function pano2vrSkin(player,base) {
 		}
 		me._gyro.appendChild(me._gyro_off);
 		me.divSkin.appendChild(me._gyro);
-		el=me._timer_1=document.createElement('div');
-		el.ggTimestamp=0;
-		el.ggLastIsActive=false;
-		el.ggTimeout=5000;
-		el.ggId="Timer 1";
-		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
-		el.ggVisible=true;
-		el.className="ggskin ggskin_timer ";
-		el.ggType='timer';
-		hs ='';
-		hs+='height : 20px;';
-		hs+='left : 78px;';
-		hs+='position : absolute;';
-		hs+='top : 76px;';
-		hs+='visibility : inherit;';
-		hs+='width : 100px;';
-		hs+='pointer-events:none;';
-		el.setAttribute('style',hs);
-		el.style[domTransform + 'Origin']='50% 50%';
-		me._timer_1.ggIsActive=function() {
-			return (me._timer_1.ggTimestamp + me._timer_1.ggTimeout) >= me.ggCurrentTime;
-		}
-		el.ggElementNodeId=function() {
-			return player.getCurrentNode();
-		}
-		me._timer_1.logicBlock_visible = function() {
-			var newLogicStateVisible;
-			if (
-				((me._timer_1.ggIsActive() == false))
-			)
-			{
-				newLogicStateVisible = 0;
-			}
-			else {
-				newLogicStateVisible = -1;
-			}
-			if (me._timer_1.ggCurrentLogicStateVisible != newLogicStateVisible) {
-				me._timer_1.ggCurrentLogicStateVisible = newLogicStateVisible;
-				me._timer_1.style[domTransition]='';
-				if (me._timer_1.ggCurrentLogicStateVisible == 0) {
-					me._timer_1.style.visibility="hidden";
-					me._timer_1.ggVisible=false;
-				}
-				else {
-					me._timer_1.style.visibility=(Number(me._timer_1.style.opacity)>0||!me._timer_1.style.opacity)?'inherit':'hidden';
-					me._timer_1.ggVisible=true;
-				}
-			}
-		}
-		me._timer_1.ggDeactivate=function () {
-			player.setVariableValue('playback_video', false);
-		}
-		me._timer_1.ggCurrentLogicStateVisible = -1;
-		me._timer_1.ggUpdateConditionTimer=function () {
-			me._timer_1.logicBlock_visible();
-		}
-		me._timer_1.ggUpdatePosition=function (useTransition) {
-		}
-		me.divSkin.appendChild(me._timer_1);
 		el=me._screentint_info=document.createElement('div');
 		el.ggId="screentint_info";
 		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
@@ -1012,6 +953,12 @@ function pano2vrSkin(player,base) {
 				me._text_2.style.opacity='1';
 				me._text_2.style.visibility=me._text_2.ggVisible?'inherit':'hidden';
 			}
+			if (
+				(
+					((player.nodeVisited(me._text_2.ggElementNodeId()) == false))
+				)
+			) {
+			}
 		});
 		player.addListener('varchanged_playback_video', function() {if (	(		((player.getVariableValue('playback_video') == false))	)) {		player.soundSetTime("_videopanorama", player.soundGetTime("_videopanorama") - 100);}if (	(		((player.getVariableValue('playback_video') == false))	)) {	player.videoPanoPause();}if (	(		((player.getVariableValue('playback_video') == true))	)) {	player.videoPanoPlay();}if (	(		((player.getVariableValue('playback_video') == true))	)) {	player.setMediaVisibility("patchforflame","0",200);}if (	(		((player.getVariableValue('playback_video') == false))	)) {	player.setMediaVisibility("patchforflame","1",200);}});
 	};
@@ -1207,14 +1154,6 @@ function pano2vrSkin(player,base) {
 	});
 	me.skinTimerEvent=function() {
 		me.ggCurrentTime=new Date().getTime();
-		if (me._timer_1.ggLastIsActive!=me._timer_1.ggIsActive()) {
-			me._timer_1.ggLastIsActive=me._timer_1.ggIsActive();
-			if (me._timer_1.ggLastIsActive) {
-			} else {
-				player.setVariableValue('playback_video', false);
-			}
-		}
-		me._timer_1.ggUpdateConditionTimer();
 	};
 	player.addListener('timer', me.skinTimerEvent);
 	function SkinHotspotClass_ht_info(parentScope,hotspot) {
