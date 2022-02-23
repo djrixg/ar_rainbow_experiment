@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 6.1.13/18080
 // Filename: skkk.ggsk
-// Generated 2022-02-23T10:38:32
+// Generated 2022-02-23T10:42:20
 
 function pano2vrSkin(player,base) {
 	player.addVariable('playback_video', 2, false);
@@ -999,9 +999,19 @@ function pano2vrSkin(player,base) {
 			me._text_2.style.visibility='hidden';
 		});
 		player.addListener('tilesrequested', function() {
-			me._text_2.style[domTransition]='none';
-			me._text_2.style.visibility=(Number(me._text_2.style.opacity)>0||!me._text_2.style.opacity)?'inherit':'hidden';
-			me._text_2.ggVisible=true;
+			if (
+				(
+					((player.nodeVisited(me._text_2.ggElementNodeId()) == false))
+				)
+			) {
+				if (player.transitionsDisabled) {
+					me._text_2.style[domTransition]='none';
+				} else {
+					me._text_2.style[domTransition]='all 100ms ease-out 0ms';
+				}
+				me._text_2.style.opacity='1';
+				me._text_2.style.visibility=me._text_2.ggVisible?'inherit':'hidden';
+			}
 		});
 		player.addListener('varchanged_playback_video', function() {if (	(		((player.getVariableValue('playback_video') == false))	)) {		player.soundSetTime("_videopanorama", player.soundGetTime("_videopanorama") - 100);}if (	(		((player.getVariableValue('playback_video') == false))	)) {	player.videoPanoPause();}if (	(		((player.getVariableValue('playback_video') == true))	)) {	player.videoPanoPlay();}if (	(		((player.getVariableValue('playback_video') == true))	)) {	player.setMediaVisibility("patchforflame","0",200);}if (	(		((player.getVariableValue('playback_video') == false))	)) {	player.setMediaVisibility("patchforflame","1",200);}});
 	};
