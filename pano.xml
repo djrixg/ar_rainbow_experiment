@@ -1,313 +1,313 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tour start="node3" appversion="6.1.13" apprev="18080">
-  <panorama hideabout="1" id="node3">
-    <input levelbiashidpi="1.000" overlap="1" leveltilesize="510" width="760" levelbias="0.400" levelingpitch="0" height="760" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0">
-      <level predecode="0" width="760" height="760" preload="0"/>
-      <level predecode="1" width="380" height="380" preload="1"/>
+<tour start="node3" apprev="18080" appversion="6.1.13">
+  <panorama id="node3" hideabout="1">
+    <input leveltilesize="510" overlap="1" levelbias="0.400" levelingroll="0" width="760" levelbiashidpi="1.000" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" height="760">
+      <level preload="0" predecode="0" width="760" height="760"/>
+      <level preload="1" predecode="1" width="380" height="380"/>
       <preview color="0x808080" strip="1"/>
-      <video endaction="loop" targetview="" startmutedmobile="1" format="equirectangular" startonload="1">
+      <video endaction="loop" format="equirectangular" targetview="" startonload="1" startmutedmobile="1">
         <source url="videos/forloop.mp4"/>
       </video>
     </input>
     <view pannorth="0" fovmode="0">
-      <start projection="4" tilt="-55.4345" fov="80.4442" pan="5.16731"/>
-      <flyin projection="9" tilt="-90" fov="170" pan="0"/>
-      <min fovpixel="2" tilt="-90" pan="0"/>
-      <max scaletofit="1" tilt="90" fovfisheye="360" fov="120" pan="360" fovstereographic="270"/>
+      <start tilt="-55.4345" fov="80.4442" projection="4" pan="5.16731"/>
+      <flyin tilt="-90" fov="170" projection="9" pan="0"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" fov="120" fovstereographic="270" pan="360" scaletofit="1" fovfisheye="360"/>
     </view>
-    <userdata description="" heading="0" comment="" title="" info="" author="" source="" datetime="" copyright="" longitude="" nodeid="node3" latitude="" tags="Pano2VR6" customnodeid=""/>
-    <hotspots width="180" wordwrap="1" height="20">
-      <label width="180" background="1" border="1" wordwrap="1" bordercolor="0x000000" borderradius="1" textalpha="1" enabled="1" textcolor="0x000000" backgroundalpha="1" height="20" borderalpha="1" backgroundcolor="0xffffff"/>
-      <polystyle handcursor="1" bordercolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" backgroundcolor="0x0000ff" mode="0"/>
-      <polyhotspot description="" id="Poly01" title="Lithium Chloride(LiCl)" target="$fwd" url="{node2}">
+    <userdata latitude="" nodeid="node3" author="" longitude="" title="" info="" customnodeid="" heading="0" source="" description="" datetime="" tags="Pano2VR6" comment="" copyright=""/>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label textcolor="0x000000" backgroundcolor="0xffffff" backgroundalpha="1" enabled="1" background="1" wordwrap="1" bordercolor="0x000000" borderradius="1" width="180" border="1" height="20" borderalpha="1" textalpha="1"/>
+      <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.25098" bordercolor="0x0000ff" mode="0" borderalpha="1" handcursor="1"/>
+      <polyhotspot target="$fwd" id="Poly01" title="Lithium Chloride(LiCl)" description="" url="{node2}">
         <polystring>-263.2/-48.11|-269.66/-49.89|-270.93/-52.02|-269.3/-57.26|-266.78/-59.03|-258.49/-59.19|-256.55/-55.88|-256.79/-50.71|-258.87/-48.94</polystring>
       </polyhotspot>
-      <polyhotspot description="" id="Poly02" title="Stontium Chloride (SrCl)" target="$fwd" url="{node4}">
+      <polyhotspot target="$fwd" id="Poly02" title="Stontium Chloride (SrCl)" description="" url="{node4}">
         <polystring>-254.37/-64.35|-256.15/-61.22|-262.88/-59.68|-270.73/-59.9|-275.1/-62.57|-273.83/-65.76|-272.25/-69.36|-264.04/-70.9|-254.32/-69.26</polystring>
       </polyhotspot>
-      <polyhotspot description="" id="Poly03" title="Calcium Chloride (CaCl)" target="$fwd" url="{node5}">
+      <polyhotspot target="$fwd" id="Poly03" title="Calcium Chloride (CaCl)" description="" url="{node5}">
         <polystring>-281.98/-73.45|-286.5/-76.5|-279.68/-80.93|-267.96/-82.42|-251.09/-81.65|-241.38/-77.9|-244.59/-73.85|-254.92/-71.58|-263.58/-71.05|-273.73/-71.35</polystring>
       </polyhotspot>
-      <polyhotspot description="" id="Poly04" title="Sodium Chloride" target="$fwd" url="{node6}">
+      <polyhotspot target="$fwd" id="Poly04" title="Sodium Chloride" description="" url="{node6}">
         <polystring>-61.34/-83.53|-110.62/-84.13|-155.24/-84.24|-205.42/-85.23|-277.7/-85.71|-327.33/-85.76|-26.85/-84.69</polystring>
       </polyhotspot>
-      <polyhotspot description="" id="Poly05" title="Copper II Chloride" target="$fwd" url="{node7}">
+      <polyhotspot target="$fwd" id="Poly05" title="Copper II Chloride" description="" url="{node7}">
         <polystring>-62.27/-74.23|-68.56/-70.72|-80.51/-68.06|-85.38/-68.91|-96.73/-70.4|-103.75/-73.04|-104.35/-77.24|-97.27/-80.02|-80.5/-80.82|-64.81/-78.02</polystring>
       </polyhotspot>
-      <polyhotspot description="" id="Poly06" title="Barium Chloride (BaCl)" target="$fwd" url="{node8}">
+      <polyhotspot target="$fwd" id="Poly06" title="Arsenic Trioxide (As203)" description="" url="{node8}">
         <polystring>-77.83/-66.22|-76.06/-60.19|-79.08/-56.7|-83.54/-56.11|-86.91/-56.37|-91.7/-58.11|-94.19/-59.93|-94.13/-61.77|-92.41/-65.3|-87.31/-68.08</polystring>
       </polyhotspot>
-      <polyhotspot description="" id="Poly07" title="Potassium Chloride (KCl)" target="$fwd" url="{node9}">
+      <polyhotspot target="$fwd" id="Poly07" title="Potassium Chloride (KCl)" description="" url="{node9}">
         <polystring>-79.86/-51.83|-79.55/-48.64|-82.77/-47.05|-85.66/-46.5|-88.37/-46.73|-91.52/-48.64|-92.76/-50.95|-91.06/-52.62|-91.59/-55.32|-90.94/-56.31|-86.84/-55.81|-80.21/-55.76</polystring>
       </polyhotspot>
     </hotspots>
     <media>
-      <sound nodechangekeep="0" loop="0" field="90.000" id="Element01" startmutedmobile="0" tilt="-34.230" ambientlevel="0.100" pan="-353.390" tiltsize="10.000" level="0.200" mode="3" pansize="10.000">
+      <sound tilt="-34.230" id="Element01" field="90.000" ambientlevel="0.100" level="0.200" loop="0" startmutedmobile="0" pan="-353.390" mode="3" tiltsize="10.000" pansize="10.000" nodechangekeep="0">
         <source url="media/burner sfx.aac"/>
       </sound>
-      <image handcursor="1" id="Element02" width="450" stretch="1.000" tilt="-59.520" rotx="0.000" rotz="0.000" height="300" fov="7.360" clickmode="1" pan="-313.790" roty="0.000">
+      <image rotx="0.000" rotz="0.000" tilt="-59.520" clickmode="1" id="Element02" fov="7.360" stretch="1.000" width="450" pan="-313.790" height="300" handcursor="1" roty="0.000">
         <source url="media/beaker.jpg"/>
       </image>
-      <image handcursor="1" id="Element03" width="450" stretch="1.000" tilt="-54.650" rotx="0.000" rotz="0.000" height="300" fov="7.140" clickmode="1" pan="-353.450" roty="0.000">
+      <image rotx="0.000" rotz="0.000" tilt="-54.650" clickmode="1" id="Element03" fov="7.140" stretch="1.000" width="450" pan="-353.450" height="300" handcursor="1" roty="0.000">
         <source url="media/bunsen burner.jpg"/>
       </image>
-      <image handcursor="1" id="Element04" width="450" stretch="1.000" tilt="-33.670" rotx="0.000" rotz="0.000" height="300" fov="6.920" clickmode="1" pan="-63.610" roty="0.000">
+      <image rotx="0.000" rotz="0.000" tilt="-33.670" clickmode="1" id="Element04" fov="6.920" stretch="1.000" width="450" pan="-63.610" height="300" handcursor="1" roty="0.000">
         <source url="media/wash bottle.jpg"/>
       </image>
-      <image handcursor="1" id="Element05" width="450" stretch="1.000" tilt="-25.300" rotx="0.000" rotz="0.000" height="300" fov="20.900" clickmode="1" pan="-271.330" roty="0.000">
+      <image rotx="0.000" rotz="0.000" tilt="-25.300" clickmode="1" id="Element05" fov="20.900" stretch="1.000" width="450" pan="-271.330" height="300" handcursor="1" roty="0.000">
         <source url="media/nichrome wire.jpg"/>
       </image>
-      <image handcursor="1" id="Element06" width="450" stretch="1.000" tilt="-55.600" rotx="13.000" rotz="78.000" height="300" fov="6.700" clickmode="1" pan="-275.650" roty="22.000">
+      <image rotx="13.000" rotz="78.000" tilt="-55.600" clickmode="1" id="Element06" fov="6.700" stretch="1.000" width="450" pan="-275.650" height="300" handcursor="1" roty="22.000">
         <source url="media/lithium chloride.jpg"/>
       </image>
-      <image handcursor="1" id="Element07" width="450" stretch="1.000" tilt="-63.840" rotx="13.000" rotz="68.000" height="300" fov="7.810" clickmode="1" pan="-281.610" roty="27.000">
+      <image rotx="13.000" rotz="68.000" tilt="-63.840" clickmode="1" id="Element07" fov="7.810" stretch="1.000" width="450" pan="-281.610" height="300" handcursor="1" roty="27.000">
         <source url="media/strontium chloride.jpg"/>
       </image>
-      <image handcursor="1" id="Element08" width="450" stretch="1.000" tilt="-74.760" rotx="0.000" rotz="60.000" height="300" fov="7.810" clickmode="1" pan="-295.400" roty="0.000">
+      <image rotx="0.000" rotz="60.000" tilt="-74.760" clickmode="1" id="Element08" fov="7.810" stretch="1.000" width="450" pan="-295.400" height="300" handcursor="1" roty="0.000">
         <source url="media/calcium chloride.jpg"/>
       </image>
-      <image handcursor="1" id="Element09" width="450" stretch="1.000" tilt="-82.090" rotx="-4.000" rotz="-10.000" height="300" fov="8.470" clickmode="1" pan="357.170" roty="-2.000">
+      <image rotx="-4.000" rotz="-10.000" tilt="-82.090" clickmode="1" id="Element09" fov="8.470" stretch="1.000" width="450" pan="357.170" height="300" handcursor="1" roty="-2.000">
         <source url="media/sodium chloride.jpg"/>
       </image>
-      <image handcursor="1" id="Element10" width="450" stretch="1.000" tilt="-73.070" rotx="0.000" rotz="-65.000" height="300" fov="7.580" clickmode="1" pan="-54.270" roty="0.000">
+      <image rotx="0.000" rotz="-65.000" tilt="-73.070" clickmode="1" id="Element10" fov="7.580" stretch="1.000" width="450" pan="-54.270" height="300" handcursor="1" roty="0.000">
         <source url="media/copper (II) chloride.jpg"/>
       </image>
-      <image handcursor="1" id="Element11" width="450" stretch="1.000" tilt="-63.120" rotx="0.000" rotz="-76.000" height="300" fov="6.920" clickmode="1" pan="-68.590" roty="-23.000">
+      <image rotx="0.000" rotz="-76.000" tilt="-63.120" clickmode="1" id="Element11" fov="6.920" stretch="1.000" width="450" pan="-68.590" height="300" handcursor="1" roty="-23.000">
         <source url="media/barium chloride.jpg"/>
       </image>
-      <image handcursor="1" id="Element12" width="450" stretch="1.000" tilt="-51.970" rotx="-3.000" rotz="-77.000" height="300" fov="6.920" clickmode="1" pan="-73.160" roty="-36.000">
+      <image rotx="-3.000" rotz="-77.000" tilt="-51.970" clickmode="1" id="Element12" fov="6.920" stretch="1.000" width="450" pan="-73.160" height="300" handcursor="1" roty="-36.000">
         <source url="media/potassium chloride.jpg"/>
       </image>
     </media>
-    <transition zoomout="0" zoomafterinfov="90" zoomoutpause="1" blendcolor="0x000000" enabled="1" type="crossdissolve" zoomin="0" zoomfov="20" zoomafteroutfov="20" blendtime="0.2" softedge="0" zoomspeed="2"/>
-    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control sensitivity="8" simulatemass="1" hideabout="1" lockedkeyboardzoom="0" contextvr="1" contextfullscreen="1" contextprojections="0" lockedwheel="0" rubberband="0" lockedkeyboard="0" invertwheel="0" speedwheel="1" dblclickfullscreen="0" lockedmouse="0" invertcontrol="1"/>
+    <transition zoomafteroutfov="20" zoomout="0" enabled="1" type="crossdissolve" zoomfov="20" blendcolor="0x000000" zoomin="0" zoomafterinfov="90" zoomoutpause="1" blendtime="0.2" softedge="0" zoomspeed="2"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control sensitivity="8" lockedkeyboardzoom="0" dblclickfullscreen="0" lockedkeyboard="0" lockedwheel="0" speedwheel="1" invertcontrol="1" contextvr="1" hideabout="1" contextprojections="0" lockedmouse="0" invertwheel="0" simulatemass="1" rubberband="0" contextfullscreen="1"/>
   </panorama>
-  <panorama hideabout="1" id="node2">
-    <input levelbiashidpi="1.000" overlap="1" leveltilesize="510" width="760" levelbias="0.400" levelingpitch="0" height="760" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0">
-      <level predecode="0" width="760" height="760" preload="0"/>
-      <level predecode="1" width="380" height="380" preload="1"/>
+  <panorama id="node2" hideabout="1">
+    <input leveltilesize="510" overlap="1" levelbias="0.400" levelingroll="0" width="760" levelbiashidpi="1.000" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" height="760">
+      <level preload="0" predecode="0" width="760" height="760"/>
+      <level preload="1" predecode="1" width="380" height="380"/>
       <preview color="0x808080" strip="1"/>
-      <video endaction="{node3}" targetview="" startmutedmobile="1" format="equirectangular" startonload="1">
+      <video endaction="{node3}" format="equirectangular" targetview="" startonload="1" startmutedmobile="1">
         <source url="videos/licl.mp4"/>
       </video>
     </input>
     <view pannorth="0" fovmode="0">
-      <start projection="4" tilt="0" fov="70" pan="0"/>
-      <flyin projection="9" tilt="-90" fov="170" pan="0"/>
-      <min fovpixel="2" tilt="-90" pan="0"/>
-      <max scaletofit="1" tilt="90" fovfisheye="360" fov="120" pan="360" fovstereographic="270"/>
+      <start tilt="0" fov="70" projection="4" pan="0"/>
+      <flyin tilt="-90" fov="170" projection="9" pan="0"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" fov="120" fovstereographic="270" pan="360" scaletofit="1" fovfisheye="360"/>
     </view>
-    <userdata description="" heading="0" comment="" title="" info="" author="" source="" datetime="" copyright="" longitude="" nodeid="node2" latitude="" tags="Pano2VR6" customnodeid=""/>
-    <hotspots width="180" wordwrap="1" height="20">
-      <label width="180" background="1" border="1" wordwrap="1" bordercolor="0x000000" borderradius="1" textalpha="1" enabled="1" textcolor="0x000000" backgroundalpha="1" height="20" borderalpha="1" backgroundcolor="0xffffff"/>
-      <polystyle handcursor="1" bordercolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" backgroundcolor="0x0000ff" mode="0"/>
-      <polyhotspot description="" id="Poly01" title="End Animation" target="" url="{node3}">
+    <userdata latitude="" nodeid="node2" author="" longitude="" title="" info="" customnodeid="" heading="0" source="" description="" datetime="" tags="Pano2VR6" comment="" copyright=""/>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label textcolor="0x000000" backgroundcolor="0xffffff" backgroundalpha="1" enabled="1" background="1" wordwrap="1" bordercolor="0x000000" borderradius="1" width="180" border="1" height="20" borderalpha="1" textalpha="1"/>
+      <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.25098" bordercolor="0x0000ff" mode="0" borderalpha="1" handcursor="1"/>
+      <polyhotspot target="" id="Poly01" title="End Animation" description="" url="{node3}">
         <polystring>-352.61/-32.48|-11.21/-31.09|-32.97/-53.06|-319.72/-54.81|-341.74/-32.2</polystring>
       </polyhotspot>
     </hotspots>
     <media>
-      <sound nodechangekeep="0" loop="0" field="90.000" id="Element01" startmutedmobile="0" tilt="-30.780" ambientlevel="0.100" pan="-351.700" tiltsize="10.000" level="0.200" mode="3" pansize="10.000">
+      <sound tilt="-30.780" id="Element01" field="90.000" ambientlevel="0.100" level="0.200" loop="0" startmutedmobile="0" pan="-351.700" mode="3" tiltsize="10.000" pansize="10.000" nodechangekeep="0">
         <source url="media/burner sfx.aac"/>
       </sound>
     </media>
-    <transition zoomout="0" zoomafterinfov="90" zoomoutpause="1" blendcolor="0x000000" enabled="1" type="crossdissolve" zoomin="0" zoomfov="20" zoomafteroutfov="20" blendtime="0.2" softedge="0" zoomspeed="2"/>
-    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control sensitivity="8" simulatemass="1" hideabout="1" lockedkeyboardzoom="0" contextvr="1" contextfullscreen="1" contextprojections="0" lockedwheel="0" rubberband="0" lockedkeyboard="0" invertwheel="0" speedwheel="1" dblclickfullscreen="0" lockedmouse="0" invertcontrol="1"/>
+    <transition zoomafteroutfov="20" zoomout="0" enabled="1" type="crossdissolve" zoomfov="20" blendcolor="0x000000" zoomin="0" zoomafterinfov="90" zoomoutpause="1" blendtime="0.2" softedge="0" zoomspeed="2"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control sensitivity="8" lockedkeyboardzoom="0" dblclickfullscreen="0" lockedkeyboard="0" lockedwheel="0" speedwheel="1" invertcontrol="1" contextvr="1" hideabout="1" contextprojections="0" lockedmouse="0" invertwheel="0" simulatemass="1" rubberband="0" contextfullscreen="1"/>
   </panorama>
-  <panorama hideabout="1" id="node4">
-    <input levelbiashidpi="1.000" overlap="1" leveltilesize="510" width="760" levelbias="0.400" levelingpitch="0" height="760" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0">
-      <level predecode="0" width="760" height="760" preload="0"/>
-      <level predecode="1" width="380" height="380" preload="1"/>
+  <panorama id="node4" hideabout="1">
+    <input leveltilesize="510" overlap="1" levelbias="0.400" levelingroll="0" width="760" levelbiashidpi="1.000" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" height="760">
+      <level preload="0" predecode="0" width="760" height="760"/>
+      <level preload="1" predecode="1" width="380" height="380"/>
       <preview color="0x808080" strip="1"/>
-      <video endaction="{node3}" targetview="" startmutedmobile="1" format="equirectangular" startonload="1">
+      <video endaction="{node3}" format="equirectangular" targetview="" startonload="1" startmutedmobile="1">
         <source url="videos/strontium chloride.mp4"/>
       </video>
     </input>
     <view pannorth="0" fovmode="0">
-      <start projection="4" tilt="0" fov="70" pan="0"/>
-      <flyin projection="9" tilt="-90" fov="170" pan="0"/>
-      <min fovpixel="2" tilt="-90" pan="0"/>
-      <max scaletofit="1" tilt="90" fovfisheye="360" fov="120" pan="360" fovstereographic="270"/>
+      <start tilt="0" fov="70" projection="4" pan="0"/>
+      <flyin tilt="-90" fov="170" projection="9" pan="0"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" fov="120" fovstereographic="270" pan="360" scaletofit="1" fovfisheye="360"/>
     </view>
-    <userdata description="" heading="0" comment="" title="" info="" author="" source="" datetime="" copyright="" longitude="" nodeid="node4" latitude="" tags="Pano2VR6" customnodeid=""/>
-    <hotspots width="180" wordwrap="1" height="20">
-      <label width="180" background="1" border="1" wordwrap="1" bordercolor="0x000000" borderradius="1" textalpha="1" enabled="1" textcolor="0x000000" backgroundalpha="1" height="20" borderalpha="1" backgroundcolor="0xffffff"/>
-      <polystyle handcursor="1" bordercolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" backgroundcolor="0x0000ff" mode="0"/>
-      <polyhotspot description="" id="Poly01" title="End Animation" target="$fwd" url="{node3}">
+    <userdata latitude="" nodeid="node4" author="" longitude="" title="" info="" customnodeid="" heading="0" source="" description="" datetime="" tags="Pano2VR6" comment="" copyright=""/>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label textcolor="0x000000" backgroundcolor="0xffffff" backgroundalpha="1" enabled="1" background="1" wordwrap="1" bordercolor="0x000000" borderradius="1" width="180" border="1" height="20" borderalpha="1" textalpha="1"/>
+      <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.25098" bordercolor="0x0000ff" mode="0" borderalpha="1" handcursor="1"/>
+      <polyhotspot target="$fwd" id="Poly01" title="End Animation" description="" url="{node3}">
         <polystring>-341.15/-35.82|-8.6/-34.77|-32.54/-59.01|-323.47/-59.96</polystring>
       </polyhotspot>
     </hotspots>
     <media>
-      <sound nodechangekeep="0" loop="0" field="90.000" id="Element01" startmutedmobile="0" tilt="-31.040" ambientlevel="0.100" pan="-352.810" tiltsize="10.000" level="0.200" mode="3" pansize="10.000">
+      <sound tilt="-31.040" id="Element01" field="90.000" ambientlevel="0.100" level="0.200" loop="0" startmutedmobile="0" pan="-352.810" mode="3" tiltsize="10.000" pansize="10.000" nodechangekeep="0">
         <source url="media/burner sfx.aac"/>
       </sound>
     </media>
-    <transition zoomout="0" zoomafterinfov="90" zoomoutpause="1" blendcolor="0x000000" enabled="1" type="crossdissolve" zoomin="0" zoomfov="20" zoomafteroutfov="20" blendtime="0.2" softedge="0" zoomspeed="2"/>
-    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control sensitivity="8" simulatemass="1" hideabout="1" lockedkeyboardzoom="0" contextvr="1" contextfullscreen="1" contextprojections="0" lockedwheel="0" rubberband="0" lockedkeyboard="0" invertwheel="0" speedwheel="1" dblclickfullscreen="0" lockedmouse="0" invertcontrol="1"/>
+    <transition zoomafteroutfov="20" zoomout="0" enabled="1" type="crossdissolve" zoomfov="20" blendcolor="0x000000" zoomin="0" zoomafterinfov="90" zoomoutpause="1" blendtime="0.2" softedge="0" zoomspeed="2"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control sensitivity="8" lockedkeyboardzoom="0" dblclickfullscreen="0" lockedkeyboard="0" lockedwheel="0" speedwheel="1" invertcontrol="1" contextvr="1" hideabout="1" contextprojections="0" lockedmouse="0" invertwheel="0" simulatemass="1" rubberband="0" contextfullscreen="1"/>
   </panorama>
-  <panorama hideabout="1" id="node5">
-    <input levelbiashidpi="1.000" overlap="1" leveltilesize="510" width="760" levelbias="0.400" levelingpitch="0" height="760" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0">
-      <level predecode="0" width="760" height="760" preload="0"/>
-      <level predecode="1" width="380" height="380" preload="1"/>
+  <panorama id="node5" hideabout="1">
+    <input leveltilesize="510" overlap="1" levelbias="0.400" levelingroll="0" width="760" levelbiashidpi="1.000" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" height="760">
+      <level preload="0" predecode="0" width="760" height="760"/>
+      <level preload="1" predecode="1" width="380" height="380"/>
       <preview color="0x808080" strip="1"/>
-      <video endaction="{node3}" targetview="" startmutedmobile="1" format="equirectangular" startonload="1">
+      <video endaction="{node3}" format="equirectangular" targetview="" startonload="1" startmutedmobile="1">
         <source url="videos/calcium chloride.mp4"/>
       </video>
     </input>
     <view pannorth="0" fovmode="0">
-      <start projection="4" tilt="0" fov="70" pan="0"/>
-      <flyin projection="9" tilt="-90" fov="170" pan="0"/>
-      <min fovpixel="2" tilt="-90" pan="0"/>
-      <max scaletofit="1" tilt="90" fovfisheye="360" fov="120" pan="360" fovstereographic="270"/>
+      <start tilt="0" fov="70" projection="4" pan="0"/>
+      <flyin tilt="-90" fov="170" projection="9" pan="0"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" fov="120" fovstereographic="270" pan="360" scaletofit="1" fovfisheye="360"/>
     </view>
-    <userdata description="" heading="0" comment="" title="" info="" author="" source="" datetime="" copyright="" longitude="" nodeid="node5" latitude="" tags="Pano2VR6" customnodeid=""/>
-    <hotspots width="180" wordwrap="1" height="20">
-      <label width="180" background="1" border="1" wordwrap="1" bordercolor="0x000000" borderradius="1" textalpha="1" enabled="1" textcolor="0x000000" backgroundalpha="1" height="20" borderalpha="1" backgroundcolor="0xffffff"/>
-      <polystyle handcursor="1" bordercolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" backgroundcolor="0x0000ff" mode="0"/>
-      <polyhotspot description="" id="Poly01" title="End Animation" target="" url="{node3}">
+    <userdata latitude="" nodeid="node5" author="" longitude="" title="" info="" customnodeid="" heading="0" source="" description="" datetime="" tags="Pano2VR6" comment="" copyright=""/>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label textcolor="0x000000" backgroundcolor="0xffffff" backgroundalpha="1" enabled="1" background="1" wordwrap="1" bordercolor="0x000000" borderradius="1" width="180" border="1" height="20" borderalpha="1" textalpha="1"/>
+      <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.25098" bordercolor="0x0000ff" mode="0" borderalpha="1" handcursor="1"/>
+      <polyhotspot target="" id="Poly01" title="End Animation" description="" url="{node3}">
         <polystring>-337.13/-37.9|-13.48/-37.08|-35.04/-57.21|-321.12/-57.7</polystring>
       </polyhotspot>
     </hotspots>
     <media>
-      <sound nodechangekeep="0" loop="0" field="90.000" id="Element01" startmutedmobile="0" tilt="-29.920" ambientlevel="0.100" pan="-352.430" tiltsize="10.000" level="0.200" mode="3" pansize="10.000">
+      <sound tilt="-29.920" id="Element01" field="90.000" ambientlevel="0.100" level="0.200" loop="0" startmutedmobile="0" pan="-352.430" mode="3" tiltsize="10.000" pansize="10.000" nodechangekeep="0">
         <source url="media/burner sfx.aac"/>
       </sound>
     </media>
-    <transition zoomout="0" zoomafterinfov="90" zoomoutpause="1" blendcolor="0x000000" enabled="1" type="crossdissolve" zoomin="0" zoomfov="20" zoomafteroutfov="20" blendtime="0.2" softedge="0" zoomspeed="2"/>
-    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control sensitivity="8" simulatemass="1" hideabout="1" lockedkeyboardzoom="0" contextvr="1" contextfullscreen="1" contextprojections="0" lockedwheel="0" rubberband="0" lockedkeyboard="0" invertwheel="0" speedwheel="1" dblclickfullscreen="0" lockedmouse="0" invertcontrol="1"/>
+    <transition zoomafteroutfov="20" zoomout="0" enabled="1" type="crossdissolve" zoomfov="20" blendcolor="0x000000" zoomin="0" zoomafterinfov="90" zoomoutpause="1" blendtime="0.2" softedge="0" zoomspeed="2"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control sensitivity="8" lockedkeyboardzoom="0" dblclickfullscreen="0" lockedkeyboard="0" lockedwheel="0" speedwheel="1" invertcontrol="1" contextvr="1" hideabout="1" contextprojections="0" lockedmouse="0" invertwheel="0" simulatemass="1" rubberband="0" contextfullscreen="1"/>
   </panorama>
-  <panorama hideabout="1" id="node6">
-    <input levelbiashidpi="1.000" overlap="1" leveltilesize="510" width="760" levelbias="0.400" levelingpitch="0" height="760" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0">
-      <level predecode="0" width="760" height="760" preload="0"/>
-      <level predecode="1" width="380" height="380" preload="1"/>
+  <panorama id="node6" hideabout="1">
+    <input leveltilesize="510" overlap="1" levelbias="0.400" levelingroll="0" width="760" levelbiashidpi="1.000" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" height="760">
+      <level preload="0" predecode="0" width="760" height="760"/>
+      <level preload="1" predecode="1" width="380" height="380"/>
       <preview color="0x808080" strip="1"/>
-      <video endaction="{node3}" targetview="" startmutedmobile="1" format="equirectangular" startonload="1">
+      <video endaction="{node3}" format="equirectangular" targetview="" startonload="1" startmutedmobile="1">
         <source url="videos/sodium chloride.mp4"/>
       </video>
     </input>
     <view pannorth="0" fovmode="0">
-      <start projection="4" tilt="0" fov="70" pan="0"/>
-      <flyin projection="9" tilt="-90" fov="170" pan="0"/>
-      <min fovpixel="2" tilt="-90" pan="0"/>
-      <max scaletofit="1" tilt="90" fovfisheye="360" fov="120" pan="360" fovstereographic="270"/>
+      <start tilt="0" fov="70" projection="4" pan="0"/>
+      <flyin tilt="-90" fov="170" projection="9" pan="0"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" fov="120" fovstereographic="270" pan="360" scaletofit="1" fovfisheye="360"/>
     </view>
-    <userdata description="" heading="0" comment="" title="" info="" author="" source="" datetime="" copyright="" longitude="" nodeid="node6" latitude="" tags="Pano2VR6" customnodeid=""/>
-    <hotspots width="180" wordwrap="1" height="20">
-      <label width="180" background="1" border="1" wordwrap="1" bordercolor="0x000000" borderradius="1" textalpha="1" enabled="1" textcolor="0x000000" backgroundalpha="1" height="20" borderalpha="1" backgroundcolor="0xffffff"/>
-      <polystyle handcursor="1" bordercolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" backgroundcolor="0x0000ff" mode="0"/>
-      <polyhotspot description="" id="Poly01" title="End Animation" target="" url="{node3}">
+    <userdata latitude="" nodeid="node6" author="" longitude="" title="" info="" customnodeid="" heading="0" source="" description="" datetime="" tags="Pano2VR6" comment="" copyright=""/>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label textcolor="0x000000" backgroundcolor="0xffffff" backgroundalpha="1" enabled="1" background="1" wordwrap="1" bordercolor="0x000000" borderradius="1" width="180" border="1" height="20" borderalpha="1" textalpha="1"/>
+      <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.25098" bordercolor="0x0000ff" mode="0" borderalpha="1" handcursor="1"/>
+      <polyhotspot target="" id="Poly01" title="End Animation" description="" url="{node3}">
         <polystring>-333.43/-35.74|-14.75/-35.88|-41.51/-58.42|-318.87/-58.56</polystring>
       </polyhotspot>
     </hotspots>
     <media>
-      <sound nodechangekeep="0" loop="0" field="90.000" id="Element01" startmutedmobile="0" tilt="-32.300" ambientlevel="0.100" pan="-352.510" tiltsize="10.000" level="0.200" mode="3" pansize="10.000">
+      <sound tilt="-32.300" id="Element01" field="90.000" ambientlevel="0.100" level="0.200" loop="0" startmutedmobile="0" pan="-352.510" mode="3" tiltsize="10.000" pansize="10.000" nodechangekeep="0">
         <source url="media/burner sfx.aac"/>
       </sound>
     </media>
-    <transition zoomout="0" zoomafterinfov="90" zoomoutpause="1" blendcolor="0x000000" enabled="1" type="crossdissolve" zoomin="0" zoomfov="20" zoomafteroutfov="20" blendtime="0.2" softedge="0" zoomspeed="2"/>
-    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control sensitivity="8" simulatemass="1" hideabout="1" lockedkeyboardzoom="0" contextvr="1" contextfullscreen="1" contextprojections="0" lockedwheel="0" rubberband="0" lockedkeyboard="0" invertwheel="0" speedwheel="1" dblclickfullscreen="0" lockedmouse="0" invertcontrol="1"/>
+    <transition zoomafteroutfov="20" zoomout="0" enabled="1" type="crossdissolve" zoomfov="20" blendcolor="0x000000" zoomin="0" zoomafterinfov="90" zoomoutpause="1" blendtime="0.2" softedge="0" zoomspeed="2"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control sensitivity="8" lockedkeyboardzoom="0" dblclickfullscreen="0" lockedkeyboard="0" lockedwheel="0" speedwheel="1" invertcontrol="1" contextvr="1" hideabout="1" contextprojections="0" lockedmouse="0" invertwheel="0" simulatemass="1" rubberband="0" contextfullscreen="1"/>
   </panorama>
-  <panorama hideabout="1" id="node7">
-    <input levelbiashidpi="1.000" overlap="1" leveltilesize="510" width="760" levelbias="0.400" levelingpitch="0" height="760" leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0">
-      <level predecode="0" width="760" height="760" preload="0"/>
-      <level predecode="1" width="380" height="380" preload="1"/>
+  <panorama id="node7" hideabout="1">
+    <input leveltilesize="510" overlap="1" levelbias="0.400" levelingroll="0" width="760" levelbiashidpi="1.000" leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" height="760">
+      <level preload="0" predecode="0" width="760" height="760"/>
+      <level preload="1" predecode="1" width="380" height="380"/>
       <preview color="0x808080" strip="1"/>
-      <video endaction="{node3}" targetview="" startmutedmobile="1" format="equirectangular" startonload="1">
+      <video endaction="{node3}" format="equirectangular" targetview="" startonload="1" startmutedmobile="1">
         <source url="videos/copper II chloride.mp4"/>
       </video>
     </input>
     <view pannorth="0" fovmode="0">
-      <start projection="4" tilt="0" fov="70" pan="0"/>
-      <flyin projection="9" tilt="-90" fov="170" pan="0"/>
-      <min fovpixel="2" tilt="-90" pan="0"/>
-      <max scaletofit="1" tilt="90" fovfisheye="360" fov="120" pan="360" fovstereographic="270"/>
+      <start tilt="0" fov="70" projection="4" pan="0"/>
+      <flyin tilt="-90" fov="170" projection="9" pan="0"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" fov="120" fovstereographic="270" pan="360" scaletofit="1" fovfisheye="360"/>
     </view>
-    <userdata description="" heading="0" comment="" title="" info="" author="" source="" datetime="" copyright="" longitude="" nodeid="node7" latitude="" tags="Pano2VR6" customnodeid=""/>
-    <hotspots width="180" wordwrap="1" height="20">
-      <label width="180" background="1" border="1" wordwrap="1" bordercolor="0x000000" borderradius="1" textalpha="1" enabled="1" textcolor="0x000000" backgroundalpha="1" height="20" borderalpha="1" backgroundcolor="0xffffff"/>
-      <polystyle handcursor="1" bordercolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" backgroundcolor="0x0000ff" mode="0"/>
-      <polyhotspot description="" id="Poly01" title="End Animation" target="" url="">
+    <userdata latitude="" nodeid="node7" author="" longitude="" title="" info="" customnodeid="" heading="0" source="" description="" datetime="" tags="Pano2VR6" comment="" copyright=""/>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label textcolor="0x000000" backgroundcolor="0xffffff" backgroundalpha="1" enabled="1" background="1" wordwrap="1" bordercolor="0x000000" borderradius="1" width="180" border="1" height="20" borderalpha="1" textalpha="1"/>
+      <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.25098" bordercolor="0x0000ff" mode="0" borderalpha="1" handcursor="1"/>
+      <polyhotspot target="" id="Poly01" title="End Animation" description="" url="">
         <polystring>-335.04/-37.82|-18.7/-35.43|-43.72/-58.43|-314.49/-62.07</polystring>
       </polyhotspot>
     </hotspots>
     <media>
-      <sound nodechangekeep="0" loop="0" field="90.000" id="Element01" startmutedmobile="0" tilt="-32.260" ambientlevel="0.100" pan="-352.720" tiltsize="10.000" level="0.200" mode="3" pansize="10.000">
+      <sound tilt="-32.260" id="Element01" field="90.000" ambientlevel="0.100" level="0.200" loop="0" startmutedmobile="0" pan="-352.720" mode="3" tiltsize="10.000" pansize="10.000" nodechangekeep="0">
         <source url="media/burner sfx.aac"/>
       </sound>
     </media>
-    <transition zoomout="0" zoomafterinfov="90" zoomoutpause="1" blendcolor="0x000000" enabled="1" type="crossdissolve" zoomin="0" zoomfov="20" zoomafteroutfov="20" blendtime="0.2" softedge="0" zoomspeed="2"/>
-    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control sensitivity="8" simulatemass="1" hideabout="1" lockedkeyboardzoom="0" contextvr="1" contextfullscreen="1" contextprojections="0" lockedwheel="0" rubberband="0" lockedkeyboard="0" invertwheel="0" speedwheel="1" dblclickfullscreen="0" lockedmouse="0" invertcontrol="1"/>
+    <transition zoomafteroutfov="20" zoomout="0" enabled="1" type="crossdissolve" zoomfov="20" blendcolor="0x000000" zoomin="0" zoomafterinfov="90" zoomoutpause="1" blendtime="0.2" softedge="0" zoomspeed="2"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control sensitivity="8" lockedkeyboardzoom="0" dblclickfullscreen="0" lockedkeyboard="0" lockedwheel="0" speedwheel="1" invertcontrol="1" contextvr="1" hideabout="1" contextprojections="0" lockedmouse="0" invertwheel="0" simulatemass="1" rubberband="0" contextfullscreen="1"/>
   </panorama>
-  <panorama hideabout="1" id="node8">
-    <input levelbiashidpi="1.000" overlap="1" leveltilesize="510" width="760" levelbias="0.400" levelingpitch="0" height="760" leveltileurl="tiles/node8/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0">
-      <level predecode="0" width="760" height="760" preload="0"/>
-      <level predecode="1" width="380" height="380" preload="1"/>
+  <panorama id="node8" hideabout="1">
+    <input leveltilesize="510" overlap="1" levelbias="0.400" levelingroll="0" width="760" levelbiashidpi="1.000" leveltileurl="tiles/node8/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" height="760">
+      <level preload="0" predecode="0" width="760" height="760"/>
+      <level preload="1" predecode="1" width="380" height="380"/>
       <preview color="0x808080" strip="1"/>
-      <video endaction="{node3}" targetview="" startmutedmobile="1" format="equirectangular" startonload="1">
+      <video endaction="{node3}" format="equirectangular" targetview="" startonload="1" startmutedmobile="1">
         <source url="videos/barium chloride.mp4"/>
       </video>
     </input>
     <view pannorth="0" fovmode="0">
-      <start projection="4" tilt="0" fov="70" pan="0"/>
-      <flyin projection="9" tilt="-90" fov="170" pan="0"/>
-      <min fovpixel="2" tilt="-90" pan="0"/>
-      <max scaletofit="1" tilt="90" fovfisheye="360" fov="120" pan="360" fovstereographic="270"/>
+      <start tilt="0" fov="70" projection="4" pan="0"/>
+      <flyin tilt="-90" fov="170" projection="9" pan="0"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" fov="120" fovstereographic="270" pan="360" scaletofit="1" fovfisheye="360"/>
     </view>
-    <userdata description="" heading="0" comment="" title="" info="" author="" source="" datetime="" copyright="" longitude="" nodeid="node8" latitude="" tags="Pano2VR6" customnodeid=""/>
-    <hotspots width="180" wordwrap="1" height="20">
-      <label width="180" background="1" border="1" wordwrap="1" bordercolor="0x000000" borderradius="1" textalpha="1" enabled="1" textcolor="0x000000" backgroundalpha="1" height="20" borderalpha="1" backgroundcolor="0xffffff"/>
-      <polystyle handcursor="1" bordercolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" backgroundcolor="0x0000ff" mode="0"/>
-      <polyhotspot description="" id="Poly01" title="End Animation" target="" url="">
+    <userdata latitude="" nodeid="node8" author="" longitude="" title="" info="" customnodeid="" heading="0" source="" description="" datetime="" tags="Pano2VR6" comment="" copyright=""/>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label textcolor="0x000000" backgroundcolor="0xffffff" backgroundalpha="1" enabled="1" background="1" wordwrap="1" bordercolor="0x000000" borderradius="1" width="180" border="1" height="20" borderalpha="1" textalpha="1"/>
+      <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.25098" bordercolor="0x0000ff" mode="0" borderalpha="1" handcursor="1"/>
+      <polyhotspot target="" id="Poly01" title="End Animation" description="" url="">
         <polystring>-333.43/-37.2|-16.58/-36.7|-43.25/-59.01|-314.85/-62.01</polystring>
       </polyhotspot>
     </hotspots>
     <media>
-      <sound nodechangekeep="0" loop="0" field="90.000" id="Element01" startmutedmobile="0" tilt="-33.790" ambientlevel="0.100" pan="-352.460" tiltsize="10.000" level="0.200" mode="3" pansize="10.000">
+      <sound tilt="-33.790" id="Element01" field="90.000" ambientlevel="0.100" level="0.200" loop="0" startmutedmobile="0" pan="-352.460" mode="3" tiltsize="10.000" pansize="10.000" nodechangekeep="0">
         <source url="media/burner sfx.aac"/>
       </sound>
     </media>
-    <transition zoomout="0" zoomafterinfov="90" zoomoutpause="1" blendcolor="0x000000" enabled="1" type="crossdissolve" zoomin="0" zoomfov="20" zoomafteroutfov="20" blendtime="0.2" softedge="0" zoomspeed="2"/>
-    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control sensitivity="8" simulatemass="1" hideabout="1" lockedkeyboardzoom="0" contextvr="1" contextfullscreen="1" contextprojections="0" lockedwheel="0" rubberband="0" lockedkeyboard="0" invertwheel="0" speedwheel="1" dblclickfullscreen="0" lockedmouse="0" invertcontrol="1"/>
+    <transition zoomafteroutfov="20" zoomout="0" enabled="1" type="crossdissolve" zoomfov="20" blendcolor="0x000000" zoomin="0" zoomafterinfov="90" zoomoutpause="1" blendtime="0.2" softedge="0" zoomspeed="2"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control sensitivity="8" lockedkeyboardzoom="0" dblclickfullscreen="0" lockedkeyboard="0" lockedwheel="0" speedwheel="1" invertcontrol="1" contextvr="1" hideabout="1" contextprojections="0" lockedmouse="0" invertwheel="0" simulatemass="1" rubberband="0" contextfullscreen="1"/>
   </panorama>
-  <panorama hideabout="1" id="node9">
-    <input levelbiashidpi="1.000" overlap="1" leveltilesize="510" width="760" levelbias="0.400" levelingpitch="0" height="760" leveltileurl="tiles/node9/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0">
-      <level predecode="0" width="760" height="760" preload="0"/>
-      <level predecode="1" width="380" height="380" preload="1"/>
+  <panorama id="node9" hideabout="1">
+    <input leveltilesize="510" overlap="1" levelbias="0.400" levelingroll="0" width="760" levelbiashidpi="1.000" leveltileurl="tiles/node9/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" height="760">
+      <level preload="0" predecode="0" width="760" height="760"/>
+      <level preload="1" predecode="1" width="380" height="380"/>
       <preview color="0x808080" strip="1"/>
-      <video endaction="{node3}" targetview="" startmutedmobile="1" format="equirectangular" startonload="1">
+      <video endaction="{node3}" format="equirectangular" targetview="" startonload="1" startmutedmobile="1">
         <source url="videos/potassium chloride.mp4"/>
       </video>
     </input>
     <view pannorth="0" fovmode="0">
-      <start projection="4" tilt="0" fov="70" pan="0"/>
-      <flyin projection="9" tilt="-90" fov="170" pan="0"/>
-      <min fovpixel="2" tilt="-90" pan="0"/>
-      <max scaletofit="1" tilt="90" fovfisheye="360" fov="120" pan="360" fovstereographic="270"/>
+      <start tilt="0" fov="70" projection="4" pan="0"/>
+      <flyin tilt="-90" fov="170" projection="9" pan="0"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" fov="120" fovstereographic="270" pan="360" scaletofit="1" fovfisheye="360"/>
     </view>
-    <userdata description="" heading="0" comment="" title="" info="" author="" source="" datetime="" copyright="" longitude="" nodeid="node9" latitude="" tags="Pano2VR6" customnodeid=""/>
-    <hotspots width="180" wordwrap="1" height="20">
-      <label width="180" background="1" border="1" wordwrap="1" bordercolor="0x000000" borderradius="1" textalpha="1" enabled="1" textcolor="0x000000" backgroundalpha="1" height="20" borderalpha="1" backgroundcolor="0xffffff"/>
-      <polystyle handcursor="1" bordercolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" backgroundcolor="0x0000ff" mode="0"/>
-      <polyhotspot description="" id="Poly01" title="End Animation" target="" url="{node3}">
+    <userdata latitude="" nodeid="node9" author="" longitude="" title="" info="" customnodeid="" heading="0" source="" description="" datetime="" tags="Pano2VR6" comment="" copyright=""/>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label textcolor="0x000000" backgroundcolor="0xffffff" backgroundalpha="1" enabled="1" background="1" wordwrap="1" bordercolor="0x000000" borderradius="1" width="180" border="1" height="20" borderalpha="1" textalpha="1"/>
+      <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.25098" bordercolor="0x0000ff" mode="0" borderalpha="1" handcursor="1"/>
+      <polyhotspot target="" id="Poly01" title="End Animation" description="" url="{node3}">
         <polystring>-335.4/-36.69|-11.38/-36.44|-34.03/-54.78|-320.78/-56.98</polystring>
       </polyhotspot>
     </hotspots>
     <media>
-      <sound nodechangekeep="0" loop="0" field="90.000" id="Element01" startmutedmobile="0" tilt="-35.190" ambientlevel="0.100" pan="-352.680" tiltsize="10.000" level="0.200" mode="3" pansize="10.000">
+      <sound tilt="-35.190" id="Element01" field="90.000" ambientlevel="0.100" level="0.200" loop="0" startmutedmobile="0" pan="-352.680" mode="3" tiltsize="10.000" pansize="10.000" nodechangekeep="0">
         <source url="media/burner sfx.aac"/>
       </sound>
     </media>
-    <transition zoomout="0" zoomafterinfov="90" zoomoutpause="1" blendcolor="0x000000" enabled="1" type="crossdissolve" zoomin="0" zoomfov="20" zoomafteroutfov="20" blendtime="0.2" softedge="0" zoomspeed="2"/>
-    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
-    <control sensitivity="8" simulatemass="1" hideabout="1" lockedkeyboardzoom="0" contextvr="1" contextfullscreen="1" contextprojections="0" lockedwheel="0" rubberband="0" lockedkeyboard="0" invertwheel="0" speedwheel="1" dblclickfullscreen="0" lockedmouse="0" invertcontrol="1"/>
+    <transition zoomafteroutfov="20" zoomout="0" enabled="1" type="crossdissolve" zoomfov="20" blendcolor="0x000000" zoomin="0" zoomafterinfov="90" zoomoutpause="1" blendtime="0.2" softedge="0" zoomspeed="2"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control sensitivity="8" lockedkeyboardzoom="0" dblclickfullscreen="0" lockedkeyboard="0" lockedwheel="0" speedwheel="1" invertcontrol="1" contextvr="1" hideabout="1" contextprojections="0" lockedmouse="0" invertwheel="0" simulatemass="1" rubberband="0" contextfullscreen="1"/>
   </panorama>
   <masternode>
-    <userdata description="" heading="0" comment="" title="" info="" author="" source="" datetime="" copyright="" longitude="" nodeid="master" latitude="" tags="" customnodeid=""/>
+    <userdata latitude="" nodeid="master" author="" longitude="" title="" info="" customnodeid="" heading="0" source="" description="" datetime="" tags="" comment="" copyright=""/>
   </masternode>
 </tour>
